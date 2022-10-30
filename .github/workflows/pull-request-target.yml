@@ -1,0 +1,28 @@
+name: Pull Request Target
+
+on:
+    pull_request_target:
+        types: [assigned, opened, synchronize, reopened, edited]
+
+permissions:
+    contents: write
+    pull-requests: write
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v3
+              with:
+                  ref: ${{ github.event.pull_request.head.ref }}
+                  repository: ${{ github.event.pull_request.head.repo.full_name }}
+            - uses: actions/setup-node@v3
+              with:
+                  node-version: 18
+            - run: npm ci
+            - run: npm run build
+            - run: npm run format
+            # - uses: stefanzweifel/git-auto-commit-action@v4
+            #   with:
+            #       commit_message: "chore: format code"
+            #       branch: ${{ github.head_ref }}

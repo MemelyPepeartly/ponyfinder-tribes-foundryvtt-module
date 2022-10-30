@@ -1,0 +1,49 @@
+name: Release
+
+on:
+    push:
+        branches:
+            - master
+
+permissions:
+    contents: write
+    pull-requests: write
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v3
+              with:
+                  ref: ${{ github.head_ref }}
+            - uses: actions/setup-node@v3
+              with:
+                  node-version: 18
+            - run: npm ci
+            - run: npm run build
+            - run: npm run format
+            # - uses: stefanzweifel/git-auto-commit-action@v4
+            #   with:
+            #       commit_message: "chore: format code"
+            #       branch: ${{ github.head_ref }}
+            - id: version
+              uses: notiz-dev/github-action-json-property@release
+              with:
+                  path: dist/module.json
+                  prop_path: "version"
+            - uses: "marvinpinto/action-automatic-releases@v1.2.1"
+              with:
+                  repo_token: ${{ secrets.GITHUB_TOKEN }}
+                  automatic_release_tag: latest
+                  prerelease: false
+                  files: |
+                      dist/module.json
+                      dist/ponyfinder-foundryvtt-module.zip
+            - uses: "marvinpinto/action-automatic-releases@v1.2.1"
+              with:
+                  repo_token: ${{ secrets.GITHUB_TOKEN }}
+                  automatic_release_tag: v${{ steps.version.outputs.prop }}
+                  prerelease: false
+                  files: |
+                      dist/module.json
+                      dist/ponyfinder-foundryvtt-module.zip

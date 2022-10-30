@@ -1,0 +1,54 @@
+{
+    "name": "ponyfinder-tribes-foundryvtt-module",
+    "title": "Ponyfinder for Pathfinder 2e",
+    "description": "A collection of Ponyfinder: Tribes of Everglow content for Pathfinder 2e",
+    "version": "0.0.0",
+    "private": true,
+    "type": "module",
+    "author": {
+        "name": "Memely and David Silver"
+    },
+    "homepage": "https://github.com/MemelyPepeartly/ponyfinder-tribes-foundryvtt-module",
+    "engines": {
+        "node": "18"
+    },
+    "scripts": {
+        "build": "webpack --mode production",
+        "format": "prettier --ignore-unknown --write .",
+        "postinstall": "patch-package"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged"
+        }
+    },
+    "lint-staged": {
+        "*": "prettier --ignore-unknown --write"
+    },
+    "devDependencies": {
+        "@league-of-foundry-developers/foundry-vtt-types": "^9.280.0",
+        "@tsconfig/node16-strictest-esm": "^1.0.3",
+        "@types/imagemin": "^8.0.0",
+        "@types/imagemin-svgo": "^10.0.1",
+        "@types/imagemin-webp": "^7.0.0",
+        "@types/node": "^18.8.0",
+        "@types/webpack": "^5.28.0",
+        "copy-webpack-plugin": "^11.0.0",
+        "create-directory-webpack-plugin": "^1.0.2",
+        "filemanager-webpack-plugin": "^7.0.0",
+        "husky-v4": "^4.3.8",
+        "imagemin": "^8.0.1",
+        "imagemin-pngquant": "^9.0.2",
+        "imagemin-svgo": "^10.0.1",
+        "imagemin-webp": "^7.0.0",
+        "json-minimizer-webpack-plugin": "^4.0.0",
+        "lint-staged": "^13.0.1",
+        "patch-package": "^6.4.7",
+        "prettier": "^2.7.1",
+        "typescript": "^4.8.4",
+        "ts-loader": "^9.3.1",
+        "webpack": "^5.73.0",
+        "webpack-cli": "^4.10.0",
+        "webpack-manifest-plugin": "^5.0.0"
+    }
+}
