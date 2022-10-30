@@ -2,7 +2,7 @@
 
 # Ponyfinder Content Module
 
-This module adds content for the Ponyfinder third-party 2e book content to Foundry VTT.
+This module adds content for the Ponyfinder: Tribes of Everglow third-party 2e book content to Foundry VTT.
 
 ## How to use
 

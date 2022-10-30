@@ -18,14 +18,7 @@ const __dirname = dirname(__filename);
 
 /** @type {import('webpack').Configuration} */
 const config = {
-    entry: {
-        "scripts/heritage-ability-boosts": resolve(
-            __dirname,
-            "src",
-            "scripts",
-            "heritage-ability-boosts.ts"
-        ),
-    },
+    entry: {},
     experiments: { outputModule: true },
     output: {
         assetModuleFilename: "[name][ext]",
@@ -89,7 +82,7 @@ const config = {
                 compatibleCoreVersion: "10",
                 url: packageJson.homepage,
                 protected: true,
-                download: `${packageJson.homepage}/releases/download/latest/ponyfinder-foundryvtt-module.zip`,
+                download: `${packageJson.homepage}/releases/download/latest/ponyfinder-tribes-foundryvtt-module.zip`,
                 manifest: `${packageJson.homepage}/releases/download/latest/module.json`,
                 esmodules: files
                     .filter(
@@ -197,34 +190,13 @@ const config = {
                     },
                 ],
                 flags: {
-                    "ponyfinder-foundryvtt-module": {
+                    "ponyfinder-tribes-foundryvtt-module": {
                         "pf2e-homebrew": {
                             creatureTraits: {
-                                cloven: "Cloven",
-                                doppelganger: "Doppelganger",
-                                flutterpony: "Flutterpony",
-                                griffon: "Griffon",
-                                "half-construct": "Half-Construct",
-                                krava: "Krava",
-                                "phoenix-wolf": "Phoenix Wolf",
-                                ponykind: "Ponykind",
-                                purrsian: "Purrsian",
-                                steelheart: "Steelheart",
-                                "sun-cat": "Sun Cat",
+                                testCreatureTrait: "Test Creature Trait",
                             },
                             featTraits: {
-                                cloven: "Cloven",
-                                doppelganger: "Doppelganger",
-                                flutterpony: "Flutterpony",
-                                griffon: "Griffon",
-                                "half-construct": "Half-Construct",
-                                krava: "Krava",
-                                "phoenix-wolf": "Phoenix Wolf",
-                                ponykind: "Ponykind",
-                                purrsian: "Purrsian",
-                                "spirit-tribe": "Spirit Tribe",
-                                steelheart: "Steelheart",
-                                "sun-cat": "Sun Cat",
+                                testFeatTrait: "Test Feat Trait",
                             },
                         },
                     },
@@ -253,7 +225,7 @@ const config = {
                             destination: resolve(
                                 __dirname,
                                 "dist",
-                                "ponyfinder-foundryvtt-module.zip"
+                                "ponyfinder-tribes-foundryvtt-module.zip"
                             ),
                         },
                     ],

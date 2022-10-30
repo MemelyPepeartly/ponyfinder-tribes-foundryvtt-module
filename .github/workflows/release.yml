@@ -38,7 +38,7 @@ jobs:
                   prerelease: false
                   files: |
                       dist/module.json
-                      dist/ponyfinder-foundryvtt-module.zip
+                      dist/ponyfinder-tribes-foundryvtt-module.zip
             - uses: "marvinpinto/action-automatic-releases@v1.2.1"
               with:
                   repo_token: ${{ secrets.GITHUB_TOKEN }}
@@ -46,4 +46,4 @@ jobs:
                   prerelease: false
                   files: |
                       dist/module.json
-                      dist/ponyfinder-foundryvtt-module.zip
+                      dist/ponyfinder-tribes-foundryvtt-module.zip

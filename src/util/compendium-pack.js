@@ -252,7 +252,7 @@ export default class CompendiumPack {
 
         const toIDRef = (uuid) => {
             const match =
-                /(?<=^Compendium\.ponyfinder-foundryvtt-module\.)([^.]+)\.(.+)$/.exec(
+                /(?<=^Compendium\.ponyfinder-tribes-foundryvtt-module\.)([^.]+)\.(.+)$/.exec(
                     uuid
                 );
             if (!match) {
@@ -330,8 +330,7 @@ export default class CompendiumPack {
 
         if (failedChecks.length > 0) {
             throw PackError(
-                `Document source in (${
-                    this.name
+                `Document source in (${this.name
                 }) has invalid or missing keys: ${failedChecks.join(", ")}`
             );
         }
