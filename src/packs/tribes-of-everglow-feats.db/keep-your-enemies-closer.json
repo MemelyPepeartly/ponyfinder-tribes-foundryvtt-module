@@ -1,0 +1,79 @@
+{
+  "name": "Keep Your Enemies Closer",
+  "type": "feat",
+  "img": "icons/skills/melee/strike-sword-stabbed-brown.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p dir=\"ltr\"><strong>Access </strong>Doppelganger</p>\n<p dir=\"ltr\">When disguised as an ally of a creature you are attacking, you deal +1d6 precision damage when Striking them and reroll any 1s on sneak attack damage dice (but must keep the result, even if another 1). This only works once per enemy per day.</p>\n<p dir=\"ltr\"> </p>"
+    },
+    "rules": [],
+    "slug": "keep-your-enemies-closer",
+    "_migration": {
+      "version": 0.891,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.845,
+        "foundry": "11.315",
+        "system": "5.9.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "class",
+        "rogue"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Ponyfinder: Tribes of Everglow",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "effects": [],
+  "folder": "WIJ3nqX646FD7sad",
+  "ownership": {
+    "default": 2,
+    "VYzg4GwxmU2rDObG": 3,
+    "vLFDiDRjrgOmIGlA": 3,
+    "NIwrOj8DkOBJgGv4": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ea4bbfa04f46c3a52e446131fd75bae64c39365c"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.9.1",
+    "coreVersion": "13.344",
+    "createdTime": 1663012085470,
+    "modifiedTime": 1700248291048,
+    "lastModifiedBy": "3jY5t0UOVRIEcYYV",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "VmfiMqXWnhORR8gD",
+  "sort": 0
+}

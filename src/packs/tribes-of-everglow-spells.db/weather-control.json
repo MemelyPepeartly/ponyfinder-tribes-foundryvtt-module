@@ -1,0 +1,130 @@
+{
+  "folder": "PBnUExGK4XfU87BE",
+  "name": "Weather Control",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<h4 dir=\"ltr\">Weather Control Ritual 4</h4>\n<p dir=\"ltr\">[Uncommon][Evocation]</p>\n<p dir=\"ltr\">Cast Varies; Cost None but time; Secondary Casters Varies</p>\n<p dir=\"ltr\">Primary Check Nature (Expert)</p>\n<p dir=\"ltr\">Secondary Checks Athletics</p>\n<p dir=\"ltr\">A trained weather pegasus or griffon can grasp control of the weather itself and demand its obedience, though they rarely work alone, especially when trying to perform grand feats or turn aside especially terrible storms. Their assistants must be pegasi or griffons, preferably with the cloud kicker feat. This ritual can replicate the effects of the control weather ritual if you qualify to use it. Created effects last for as long as you continue the ritual, then return gently to their natural state.</p>\n<p dir=\"ltr\"><strong> </strong></p>\n<div dir=\"ltr\">\n<table><colgroup><col></col><col></col><col></col><col></col><col></col></colgroup>\n<tbody>\n<tr>\n<td>\n<p dir=\"ltr\">Effect</p>\n</td>\n<td>\n<p dir=\"ltr\">Primary Check</p>\n</td>\n<td>\n<p dir=\"ltr\">Secondary Casters</p>\n</td>\n<td>\n<p dir=\"ltr\">Cast Time</p>\n</td>\n<td>\n<p dir=\"ltr\">Description</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Sky Clear</p>\n</td>\n<td>\n<p dir=\"ltr\">Nature (Expert)</p>\n</td>\n<td>\n<p dir=\"ltr\">0+</p>\n</td>\n<td>\n<p dir=\"ltr\">1 hour - 10 minutes per secondary caster to a minimum of 1 round (10 seconds)</p>\n</td>\n<td>\n<p dir=\"ltr\">Clear the sky of clouds, allowing the sun to shine directly on the affected area of up to a mile radius centered on you. This will stop mild to moderate rainfalls. Stronger than that will resist this effect.</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Refreshing Rain</p>\n</td>\n<td>\n<p dir=\"ltr\">Nature (Expert)</p>\n</td>\n<td>\n<p dir=\"ltr\">0+</p>\n</td>\n<td>\n<p dir=\"ltr\">3 hours - 20 minutes per secondary caster to a minimum of 10 minutes.</p>\n</td>\n<td>\n<p dir=\"ltr\">You and your assistants gather clouds near and far, shepherding them to begin gently raining over the area of up to a mile radius centered on you. This may become more difficult in places and times where clouds are difficult to find (increasing the DC of the checks by up to 5)</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Fog Cover</p>\n</td>\n<td>\n<p dir=\"ltr\">Nature (Expert) if fog is typical in the area, Nature (Master) if rare and Nature (Legendary) if non-existant</p>\n</td>\n<td>\n<p dir=\"ltr\">0+</p>\n</td>\n<td>\n<p dir=\"ltr\">3 hours - 30 minutes per secondary caster to a minimum of 30 minutes.</p>\n</td>\n<td>\n<p dir=\"ltr\">You gather clouds and bring them nice and close to the ground, covering everything in fog, up to a mile in radius from yourself. This fog can be anything from a light obscuring of sight to barely seeing more than a few feet ahead of yourself. If the fog is rare, this ritual must be heightened to level 5. If the fog is otherwise unheard of, this ritual must be heightened to level 6.</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Storm Repel</p>\n</td>\n<td>\n<p dir=\"ltr\">Nature (Master)</p>\n</td>\n<td>\n<p dir=\"ltr\">4+</p>\n</td>\n<td>\n<p dir=\"ltr\">3 hours</p>\n</td>\n<td>\n<p dir=\"ltr\">You become the vanguard for the area, working with your assistants to turn aside an incoming hostile weather event and turn it off its path towards less occupied areas. This does not destroy the hostile event, it simply redirects it so it doesn't crash into the target area or moves past it as quickly as possible if it began there. This use requires heightening the ritual to level 5.</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Wind Control</p>\n</td>\n<td>\n<p dir=\"ltr\">Nature (Master)</p>\n</td>\n<td>\n<p dir=\"ltr\">2+</p>\n</td>\n<td>\n<p dir=\"ltr\">1 hour</p>\n</td>\n<td>\n<p dir=\"ltr\">You encourage the wind to flow in the direction and speed of your choice, from a standstill to turbulent gusts that knock people's hats off. This affects an area up to a mile in radius centered on yourself. This requires heightening the ritual to level 5.</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Season Welcome</p>\n</td>\n<td>\n<p dir=\"ltr\">Nature (Master)</p>\n</td>\n<td>\n<p dir=\"ltr\">10+</p>\n</td>\n<td>\n<p dir=\"ltr\">8 hours</p>\n</td>\n<td>\n<p dir=\"ltr\">With a burst of song and possibly great cheer, you welcome the next season. This ritual effect can only be used within a month of when the season would normally arrive, or it fails automatically. On a success, the new season arrives for the area, a mile radius centered on yourself. The weather is perfectly normal for the area for the new season. If transitioning from spring to fall, leaves will change colors. Changing to winter, they will fall and you and your compatriots are likely bringing snow to accent things, and so on. An area that has had its season properly welcomed is resistant to unusual weather patterns for the coming season. Unlike most weather control effects, the assistants of this do not need to be pegasi or griffons. All are welcome to assist. This requires heightening the ritual to level 6.</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Summon Cyclone</p>\n</td>\n<td>\n<p dir=\"ltr\">Nature (Legendary)</p>\n</td>\n<td>\n<p dir=\"ltr\">5+</p>\n</td>\n<td>\n<p dir=\"ltr\">20 minutes</p>\n</td>\n<td>\n<p dir=\"ltr\">Typically used to transport a great quantity of something from the ground to the sky, this ritual requires the assistants fly in a circle as quickly as possible, adding their strength to the force of the eventual cyclone that lifts and carries the desired item with a bulk of up to twice as many assistants are succeeding per 20 minutes, though each 20 minutes requires a fresh roll to keep the ritual going properly. This requires heightening the ritual to level 7.</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p dir=\"ltr\"> </p>\n<hr />\n<p> </p>\n<p dir=\"ltr\">Heightened (8th) Double the radius of all effects.</p>\n<p dir=\"ltr\"> </p>"
+    },
+    "rules": [],
+    "slug": "weather-control",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 4
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "value": {}
+    },
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "counteraction": false,
+    "source": {
+      "value": "Ponyfinder: Tribes of Everglow"
+    },
+    "schema": {
+      "version": 0.845,
+      "lastMigration": null
+    },
+    "spellType": {
+      "value": "attack"
+    },
+    "category": {
+      "value": "ritual"
+    },
+    "traditions": {
+      "value": [
+        "arcane",
+        "divine"
+      ]
+    },
+    "school": {
+      "value": "evocation"
+    },
+    "components": {
+      "focus": false,
+      "material": false,
+      "somatic": false,
+      "verbal": false
+    },
+    "materials": {
+      "value": ""
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "hasCounteractCheck": {
+      "value": false
+    },
+    "primarycheck": {
+      "value": ""
+    },
+    "secondarycheck": {
+      "value": ""
+    },
+    "secondarycasters": {
+      "value": ""
+    }
+  },
+  "img": "icons/commodities/gems/pearl-storm.webp",
+  "ownership": {
+    "default": 0,
+    "VYzg4GwxmU2rDObG": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.1.0",
+    "coreVersion": "13.344",
+    "createdTime": 1688410508861,
+    "modifiedTime": 1688431572945,
+    "lastModifiedBy": "VYzg4GwxmU2rDObG",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "fXH0Lna6dZ8oxhXO",
+  "sort": 0
+}

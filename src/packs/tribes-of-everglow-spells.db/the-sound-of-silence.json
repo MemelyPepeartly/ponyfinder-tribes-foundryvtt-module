@@ -1,0 +1,130 @@
+{
+  "folder": "BUfgWUMZpgIhBtUE",
+  "name": "The Sound of Silence",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p dir=\"ltr\"><strong>Traditions </strong>Divine, Occult</p>\n<p dir=\"ltr\"><strong>Access </strong>sea horse</p>\n<p dir=\"ltr\"><strong>Cast </strong>[two-actions] somatic, verbal</p>\n<p dir=\"ltr\"><strong>Range</strong> 30 feet; <strong>Area </strong>30 foot diameter sphere</p>\n<p dir=\"ltr\"><strong>Duration </strong>1 minute</p>\n<p dir=\"ltr\"> </p>\n<hr />\n<p> </p>\n<p dir=\"ltr\">Any effect with the auditory or linguistic trait that attempts to work in the affected area is hampered. Its DC is lowered by 2 and if it deals dice of damage, it deals 2 less dice of damage.</p>\n<p dir=\"ltr\"> </p>\n<hr />\n<p> </p>\n<p dir=\"ltr\">Heightened (+1) The DC is lowered by 1 more and it deals 1 less die of damage.</p>\n<p dir=\"ltr\"> </p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 3
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": {
+      "value": 30,
+      "type": "burst"
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {
+      "value": {}
+    },
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "counteraction": false,
+    "source": {
+      "value": "Ponyfinder: Tribes of Everglow"
+    },
+    "schema": {
+      "version": 0.845,
+      "lastMigration": null
+    },
+    "spellType": {
+      "value": "attack"
+    },
+    "category": {
+      "value": "spell"
+    },
+    "traditions": {
+      "value": [
+        "divine",
+        "occult"
+      ]
+    },
+    "school": {
+      "value": "abjuration"
+    },
+    "components": {
+      "focus": false,
+      "material": false,
+      "somatic": true,
+      "verbal": true
+    },
+    "materials": {
+      "value": ""
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "hasCounteractCheck": {
+      "value": false
+    },
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {}
+    }
+  },
+  "img": "icons/svg/silenced.svg",
+  "ownership": {
+    "default": 0,
+    "VYzg4GwxmU2rDObG": 3,
+    "vLFDiDRjrgOmIGlA": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.1.0",
+    "coreVersion": "13.344",
+    "createdTime": 1688410508861,
+    "modifiedTime": 1688484805042,
+    "lastModifiedBy": "vLFDiDRjrgOmIGlA",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "kcSpGjy9AQrVlZ5a",
+  "sort": 0
+}

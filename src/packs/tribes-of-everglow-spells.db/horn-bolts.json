@@ -1,0 +1,130 @@
+{
+  "folder": "4x8EqgxF0PtIrmzi",
+  "name": "Horn Bolts",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p dir=\"ltr\"><strong>Traditions </strong>arcane</p>\n<p dir=\"ltr\"><strong>Access </strong>unicorn</p>\n<p dir=\"ltr\"><strong>Cast </strong>[one-action] to [three-actions] (somatic, focus(your horn))</p>\n<p dir=\"ltr\"><strong>Range </strong>120 feet; <strong>Target </strong>1 creature</p>\n<p dir=\"ltr\"> </p>\n<hr />\n<p> </p>\n<p dir=\"ltr\">You channel a burst of force from your horn toward a creature that you can see. It automatically hits and deals 1d4+ your intelligence modifier force damage. For each additional action you use when Casting the Spell, increase the number of missiles you shoot by one, to a maximum of three missiles for 3 actions. You choose the target for each missile individually. If you shoot more than one missile at the same target, combine the damage before applying bonuses or penalties to damage, resistances, weaknesses, and so forth. Spells or effects that hinder or prevent magic missile function against this spell equally well.</p>\n<p dir=\"ltr\"> </p>\n<hr />\n<p> </p>\n<p dir=\"ltr\"><strong>Heightened </strong>(+2) You shoot one additional missile with each action you spend.</p>\n<p dir=\"ltr\"><strong>Heightened </strong>(+1) Increase the damage per missile by 2d4.</p>\n<p dir=\"ltr\"><strong>Heightened </strong>(+2) The missiles become quite large, dealing their damage to all creatures within 5' of the target creature.</p>\n<p dir=\"ltr\"><strong id=\"docs-internal-guid-6d5083f0-7fff-4907-0022-56ab221d6acb\">Heightened </strong>(+1) The damage can be changed to fire, ice, acid, or electricity. This choice is made when casting, and all missiles created are the same element. The spell loses the force trait and gains the element used.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "force"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 2
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "120 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "value": {
+        "SC54dvtoAAXPx9j3": {
+          "value": "1d4",
+          "type": {
+            "value": "force",
+            "categories": [],
+            "subtype": ""
+          },
+          "applyMod": true
+        }
+      }
+    },
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "counteraction": false,
+    "source": {
+      "value": "Ponyfinder: Tribes of Everglow"
+    },
+    "schema": {
+      "version": 0.845,
+      "lastMigration": null
+    },
+    "spellType": {
+      "value": "attack"
+    },
+    "category": {
+      "value": "spell"
+    },
+    "traditions": {
+      "value": [
+        "arcane"
+      ]
+    },
+    "school": {
+      "value": "evocation"
+    },
+    "components": {
+      "focus": true,
+      "material": false,
+      "somatic": true,
+      "verbal": false
+    },
+    "materials": {
+      "value": ""
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "hasCounteractCheck": {
+      "value": false
+    }
+  },
+  "_id": "8MIRgmeFSdekwFif",
+  "img": "icons/magic/light/projectile-bolts-salvo-yellow.webp",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "VYzg4GwxmU2rDObG": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.1.0",
+    "coreVersion": "13.344",
+    "createdTime": 1688410508861,
+    "modifiedTime": 1688411908949,
+    "lastModifiedBy": "VYzg4GwxmU2rDObG",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  }
+}

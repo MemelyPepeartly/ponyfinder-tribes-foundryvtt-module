@@ -1,0 +1,76 @@
+{
+  "name": "Outwitting the Divine",
+  "type": "feat",
+  "img": "icons/skills/wounds/anatomy-organ-brain-pink-red.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p dir=\"ltr\"><strong>Prerequisites</strong> unicorn pony heritage, class that uses Wisdom as its key ability</p>\n<p dir=\"ltr\">Your key ability becomes Intelligence.</p>\n<p dir=\"ltr\"> </p>"
+    },
+    "rules": [],
+    "slug": "outwitting-the-divine",
+    "_migration": {
+      "version": 0.891,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.845,
+        "foundry": "11.315",
+        "system": "5.9.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "ponykind"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Ponyfinder: Tribes of Everglow",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "effects": [],
+  "folder": "z7UOop3bYddwKR1b",
+  "ownership": {
+    "default": 2,
+    "VYzg4GwxmU2rDObG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ea4bbfa04f46c3a52e446131fd75bae64c39365c"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.2.1",
+    "coreVersion": "13.344",
+    "createdTime": 1663012085470,
+    "modifiedTime": 1723252298459,
+    "lastModifiedBy": "RYp8kuVcyZE42EyG",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "a4C6TMdkYunY52T6",
+  "sort": 700000
+}

@@ -1,0 +1,77 @@
+{
+  "name": "Dimensionally Sticky",
+  "type": "feat",
+  "img": "icons/creatures/webs/web-spider-glowing-pink.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p dir=\"ltr\"><strong>Prerequisites</strong> ghost pony</p>\n<p dir=\"ltr\"><strong>Trigger</strong> A creature you can see attempts to teleport, shift planes, or otherwise move via a conjuration spell or effect.</p>\n<p dir=\"ltr\">They must make a Will saving throw against your class DC or their action(s) are wasted to no effect. If the power was limited, one use is lost.</p>"
+    },
+    "rules": [],
+    "slug": "dimensionally-sticky",
+    "_migration": {
+      "version": 0.891,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.845,
+        "foundry": "11.315",
+        "system": "5.9.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "ponykind"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Ponyfinder: Tribes of Everglow",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "effects": [],
+  "folder": "lpZ2hrS9UhTB7fKa",
+  "ownership": {
+    "default": 3,
+    "VYzg4GwxmU2rDObG": 3,
+    "6eYXjOVP8C9nkMdx": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ea4bbfa04f46c3a52e446131fd75bae64c39365c"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.2.1",
+    "coreVersion": "13.344",
+    "createdTime": 1663012085470,
+    "modifiedTime": 1723252453178,
+    "lastModifiedBy": "fk9YvBqsldfUKGpW",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "f7nRgqrBDYcMCSIx",
+  "sort": 0
+}

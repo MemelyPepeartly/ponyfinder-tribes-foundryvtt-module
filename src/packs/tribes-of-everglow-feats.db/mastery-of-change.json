@@ -1,0 +1,78 @@
+{
+  "name": "Mastery of Change",
+  "type": "feat",
+  "img": "icons/creatures/magical/humanoid-silhouette-aliens-green.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p id=\"docs-internal-guid-a32395a5-7fff-8fdc-2d0d-ce8c1d5c766d\" dir=\"ltr\" style=\"line-height:1.38;text-indent:9pt;margin-top:0pt;margin-bottom:0pt\"><span style=\"font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:bold;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap\">Prerequisites </span><span style=\"font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap\">Doppelganger, natural shapeshifter</span></p>\n<p dir=\"ltr\" style=\"line-height:1.38;text-indent:9pt;margin-top:0pt;margin-bottom:0pt\"><span style=\"font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap\">When using natural shapeshifter, you can imitate things with up to two traits you don't have (Such as humanoid and elf), more than enough to imitate most common races with ease. If you are Legendary in Deception, this increases to three traits. If you are normally fingerless and imitate a race without fingerless, you may lose the fingerless quality when assuming the form if you wish.</span></p>\n<p> </p>\n<p> </p>"
+    },
+    "rules": [],
+    "slug": "mastery-of-change",
+    "_migration": {
+      "version": 0.891,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.845,
+        "foundry": "11.315",
+        "system": "5.9.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "ponykind"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Ponyfinder: Tribes of Everglow",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 13
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "effects": [],
+  "folder": "dWKfb5vLpPHfskgR",
+  "ownership": {
+    "default": 2,
+    "VYzg4GwxmU2rDObG": 3,
+    "vLFDiDRjrgOmIGlA": 3,
+    "1nBzqxFokh7XjBXQ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ea4bbfa04f46c3a52e446131fd75bae64c39365c"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.2.1",
+    "coreVersion": "13.344",
+    "createdTime": 1663012085470,
+    "modifiedTime": 1723253462324,
+    "lastModifiedBy": "fk9YvBqsldfUKGpW",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "XNsWC7Ua926IO369",
+  "sort": 700000
+}

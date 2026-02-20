@@ -1,0 +1,124 @@
+{
+  "folder": "BUfgWUMZpgIhBtUE",
+  "name": "Return to the Depths",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p dir=\"ltr\"><strong>Traditions </strong>Occult, Primal</p>\n<p dir=\"ltr\"><strong>Access </strong>sea horse</p>\n<p dir=\"ltr\"><strong>Cast </strong>[two-actions] somatic, verbal</p>\n<p dir=\"ltr\"><strong>Range </strong>30 feet; <strong>Targets </strong>1 living creature</p>\n<p dir=\"ltr\"><strong id=\"docs-internal-guid-55194b37-7fff-8c07-d7a4-307e5ba74a6d\">Saving Throw</strong> Will</p>\n<p dir=\"ltr\">The target creature feels an incredible urge to plunge as deep as possible into water as possible. The effects depend on the saving throw.</p>\n<p dir=\"ltr\"><strong>Critical Success</strong> The creature is unaffected.</p>\n<p dir=\"ltr\"><strong>Success</strong> The creature spends an action Striding as directly to the nearest body of water it is aware of, then can act as it please and the effect ends. If the creature already is in or enters water, it spends the rest of its movement going deeper.</p>\n<p dir=\"ltr\"><strong>Failure </strong>The creature spends an action Striding every round for a minute trying to submerge itself as it would on a success.</p>\n<p dir=\"ltr\"><strong>Critical Failure</strong> The creature spends 2 actions Striding every round for a minute trying to submerge itself as it would on a success.</p>\n<p dir=\"ltr\"> </p>\n<hr />\n<p> </p>\n<p dir=\"ltr\">Heightened (+2) Another creature within range is also affected.</p>\n<p dir=\"ltr\"> </p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "mental"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 2
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "value": {}
+    },
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "counteraction": false,
+    "source": {
+      "value": "Ponyfinder: Tribes of Everglow"
+    },
+    "schema": {
+      "version": 0.845,
+      "lastMigration": null
+    },
+    "spellType": {
+      "value": "save"
+    },
+    "category": {
+      "value": "spell"
+    },
+    "traditions": {
+      "value": [
+        "occult",
+        "primal"
+      ]
+    },
+    "school": {
+      "value": "enchantment"
+    },
+    "components": {
+      "focus": false,
+      "material": false,
+      "somatic": true,
+      "verbal": true
+    },
+    "materials": {
+      "value": ""
+    },
+    "save": {
+      "value": "will",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "hasCounteractCheck": {
+      "value": false
+    }
+  },
+  "img": "icons/magic/water/orb-water-bubbles-blue.webp",
+  "ownership": {
+    "default": 0,
+    "VYzg4GwxmU2rDObG": 3,
+    "vLFDiDRjrgOmIGlA": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.1.0",
+    "coreVersion": "13.344",
+    "createdTime": 1688410508861,
+    "modifiedTime": 1688484683993,
+    "lastModifiedBy": "vLFDiDRjrgOmIGlA",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "qTbXCihAsAp9mCp6",
+  "sort": 0
+}

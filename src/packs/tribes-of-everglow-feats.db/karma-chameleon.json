@@ -1,0 +1,82 @@
+{
+  "name": "Karma Chameleon",
+  "type": "feat",
+  "img": "icons/creatures/reptiles/chameleon-camouflage-green-brown.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p id=\"docs-internal-guid-bf9c5e92-7fff-2d24-9881-2244501f3474\" dir=\"ltr\" style=\"line-height:1.38;text-indent:9pt;margin-top:0pt;margin-bottom:0pt\"><span style=\"font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:bold;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap\">Prerequisites </span><span style=\"font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap\">Doppelganger</span></p>\n<p dir=\"ltr\" style=\"line-height:1.38;text-indent:9pt;margin-top:0pt;margin-bottom:0pt\"><span style=\"font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap\">You may begin to detect as the desired alignment until you use this ability to assume a different alignment. Use Deception to counter the Perception of any attempting to learn the truth. This can even work on magic items and traps, using a level appropriate (based on the item/trap's level) DC to roll Deception against.</span></p>\n<p> </p>\n<p> </p>"
+    },
+    "rules": [],
+    "slug": "karma-chameleon",
+    "_migration": {
+      "version": 0.891,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.845,
+        "foundry": "11.315",
+        "system": "5.9.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "ponykind"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Ponyfinder: Tribes of Everglow",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Doppelganger"
+        }
+      ]
+    },
+    "location": null
+  },
+  "effects": [],
+  "folder": "dWKfb5vLpPHfskgR",
+  "ownership": {
+    "default": 2,
+    "VYzg4GwxmU2rDObG": 3,
+    "vLFDiDRjrgOmIGlA": 3,
+    "1nBzqxFokh7XjBXQ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ea4bbfa04f46c3a52e446131fd75bae64c39365c"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "7.6.3",
+    "coreVersion": "13.350",
+    "createdTime": 1663012085470,
+    "modifiedTime": 1761004280438,
+    "lastModifiedBy": "VYzg4GwxmU2rDObG",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "FGKOyK0YcjU9EAmB",
+  "sort": 800000
+}

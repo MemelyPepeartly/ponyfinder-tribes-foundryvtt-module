@@ -1,0 +1,78 @@
+{
+  "name": "Burning Steps",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p id=\"docs-internal-guid-21df21e4-7fff-1030-01b8-f4128e3366a5\" dir=\"ltr\" style=\"line-height:1.38;text-indent:13.5pt;margin-top:0pt;margin-bottom:0pt\"><span style=\"font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:bold;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap\">Prerequisites </span><span style=\"font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap\">sun pony</span></p>\n<p dir=\"ltr\" style=\"line-height:1.38;text-indent:13.5pt;margin-top:0pt;margin-bottom:0pt\"><span style=\"font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap\">You begin leaving flaming prints as you move. Anyone who enters a square you occupied, even during movement, until the start of your next action takes 4d4 fire damage. This increases to 6d4 if you are an Expert at Athletics, 8d4 at Master, and 10d4 at Legendary. They may make a basic Reflex save against your class DC to avoid this damage.</span></p>\n<p><span id=\"docs-internal-guid-8445518b-7fff-d60d-8dca-4db3d2c36f5e\" style=\"font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap\"> </span></p>"
+    },
+    "rules": [],
+    "slug": "burning-steps",
+    "_migration": {
+      "version": 0.891,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.845,
+        "foundry": "11.315",
+        "system": "5.9.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "ponykind"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Ponyfinder: Tribes of Everglow",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "effects": [],
+  "folder": "YJDqlN5p8pGMmASd",
+  "ownership": {
+    "default": 2,
+    "VYzg4GwxmU2rDObG": 3,
+    "vLFDiDRjrgOmIGlA": 3,
+    "1nBzqxFokh7XjBXQ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ea4bbfa04f46c3a52e446131fd75bae64c39365c"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.2.1",
+    "coreVersion": "13.344",
+    "createdTime": 1663012085470,
+    "modifiedTime": 1723253665034,
+    "lastModifiedBy": "fk9YvBqsldfUKGpW",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "5gO7hzrhe6PxjcIK",
+  "sort": 200000
+}

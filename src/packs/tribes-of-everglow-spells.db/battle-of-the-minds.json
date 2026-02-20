@@ -1,0 +1,125 @@
+{
+  "folder": "qXNeFEnn2wJ5hasV",
+  "name": "Battle of the Minds",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p dir=\"ltr\"><strong>Access </strong>zebra</p>\n<p dir=\"ltr\"><strong>Range </strong>30 feet; <strong>Targets </strong>1 living creature</p>\n<p dir=\"ltr\"> </p>\n<hr />\n<p> </p>\n<p dir=\"ltr\">You issue a challenge of knowledge to the target. They may select any Intelligence or Wisdom-based skill they want, or turn down the challenge. If they turn it down, they become slowed 1 for one round and the spell ends. If they accept, the caster makes a check of the chosen skill against the skill DC of the target of the same skill. Success means the caster wins, otherwise the target wins. The loser is slowed 1 for 1d4 rounds and suffers a –2 penalty to all saving throws against the winner for the next 24 hours.</p>\n<p dir=\"ltr\"> </p>\n<hr />\n<p> </p>\n<p><strong id=\"docs-internal-guid-78df1d81-7fff-b131-7bfd-2bfb208e3aca\">Heightened (+1) Challenge another creature in range at the same time. You must defeat the highest DC of the targets or lose completely. How bold of you.</strong></p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "auditory",
+        "linguistic"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 2
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "value": {}
+    },
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "counteraction": false,
+    "source": {
+      "value": "Ponyfinder: Tribes of Everglow"
+    },
+    "schema": {
+      "version": 0.845,
+      "lastMigration": null
+    },
+    "spellType": {
+      "value": "utility"
+    },
+    "category": {
+      "value": "spell"
+    },
+    "traditions": {
+      "value": [
+        "arcane",
+        "occult"
+      ]
+    },
+    "school": {
+      "value": "enchantment"
+    },
+    "components": {
+      "focus": false,
+      "material": false,
+      "somatic": true,
+      "verbal": true
+    },
+    "materials": {
+      "value": ""
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "hasCounteractCheck": {
+      "value": false
+    }
+  },
+  "img": "icons/magic/fire/orb-fireball-puzzle.webp",
+  "ownership": {
+    "default": 0,
+    "VYzg4GwxmU2rDObG": 3,
+    "vLFDiDRjrgOmIGlA": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.1.0",
+    "coreVersion": "13.344",
+    "createdTime": 1688410508861,
+    "modifiedTime": 1688491170309,
+    "lastModifiedBy": "vLFDiDRjrgOmIGlA",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "Zbmak8yoW7v1By26",
+  "sort": 0
+}

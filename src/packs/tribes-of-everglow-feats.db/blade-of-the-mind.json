@@ -1,0 +1,76 @@
+{
+  "name": "Blade of the Mind",
+  "type": "feat",
+  "img": "icons/skills/melee/weapons-crossed-swords-teal.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p dir=\"ltr\"><strong>Prerequisites</strong> Advanced Horn Magic, unicorn pony heritage</p>\n<p dir=\"ltr\">You can fashion or dismiss a force version of any melee weapon you are proficient with. Such a weapon is held aloft in one of your mental hands and completely occupies that hand so long as it exists. Besides operating as if it had the ghost touch property rune, it works as any other physical weapon. Your horn can be imbued with weapon runes that affect any weapon created with this feat. You could conjure a single two-handed weapon for both of your hands or two weapons if you desire instead.</p>"
+    },
+    "rules": [],
+    "slug": "blade-of-the-mind",
+    "_migration": {
+      "version": 0.891,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.845,
+        "foundry": "11.315",
+        "system": "5.9.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "ponykind"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Ponyfinder: Tribes of Everglow",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "effects": [],
+  "folder": "z7UOop3bYddwKR1b",
+  "ownership": {
+    "default": 2,
+    "VYzg4GwxmU2rDObG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ea4bbfa04f46c3a52e446131fd75bae64c39365c"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.2.1",
+    "coreVersion": "13.344",
+    "createdTime": 1663012085470,
+    "modifiedTime": 1723252507071,
+    "lastModifiedBy": "fk9YvBqsldfUKGpW",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "rujLWKM3diM9uMHL",
+  "sort": 100000
+}

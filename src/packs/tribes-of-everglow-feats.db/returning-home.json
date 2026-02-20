@@ -1,0 +1,77 @@
+{
+  "name": "Returning Home",
+  "type": "feat",
+  "img": "icons/creatures/magical/spirit-undead-ghost-purple.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p dir=\"ltr\"><strong>Prerequisites</strong> ghost pony</p>\n<p dir=\"ltr\"><strong>Frequency</strong> twice per day</p>\n<p dir=\"ltr\">You fade in or out of reality itself, entering or exiting the ethereal plane that your people call home. This is identical to<em> ethereal jaunt</em> but has no duration except until this ability is used again, thus requiring no sustaining.</p>"
+    },
+    "rules": [],
+    "slug": "returning-home",
+    "_migration": {
+      "version": 0.891,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.845,
+        "foundry": "11.315",
+        "system": "5.9.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "ponykind"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Ponyfinder: Tribes of Everglow",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 13
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 3
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "effects": [],
+  "folder": "lpZ2hrS9UhTB7fKa",
+  "ownership": {
+    "default": 3,
+    "VYzg4GwxmU2rDObG": 3,
+    "6eYXjOVP8C9nkMdx": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ea4bbfa04f46c3a52e446131fd75bae64c39365c"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.2.1",
+    "coreVersion": "13.344",
+    "createdTime": 1663012085470,
+    "modifiedTime": 1723253427306,
+    "lastModifiedBy": "fk9YvBqsldfUKGpW",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "8FhRzMw29Te9F5sM",
+  "sort": 0
+}

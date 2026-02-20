@@ -1,0 +1,122 @@
+{
+  "folder": "qXNeFEnn2wJ5hasV",
+  "name": "Conjure Library",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<h4 dir=\"ltr\">Conjure Library SPELL 1</h4>\n<p dir=\"ltr\">[Uncommon][Divination][Dynamic Heightening]</p>\n<p dir=\"ltr\">Traditions arcane, occult</p>\n<p dir=\"ltr\">Access worships Princess Luminace or zebra</p>\n<p dir=\"ltr\">Cast [two-actions] somatic, verbal</p>\n<p dir=\"ltr\"> </p>\n<hr />\n<p> </p>\n<p dir=\"ltr\">Despite its name this spell does not actually conjure books—instead it creates a conduit between the caster and Princess Luminace's eternal library, allowing for a glimpse of unfathomable knowledge. This peek grants you one attempt to Recall Knowledge with a +4 circumstance bonus.</p>\n<p dir=\"ltr\"> </p>\n<hr />\n<p> </p>\n<p dir=\"ltr\"><strong>Heightened </strong>(+1) The spell's duration extends by one round, allowing further Recall Knowledges to be made.</p>\n<p dir=\"ltr\"><strong>Heightened </strong>(+1) Enlisting the aid of one of her luminaries, any critical failure made on an enhanced Recall Knowledge roll becomes a failure instead.</p>\n<p dir=\"ltr\"><strong>Heightened </strong>(+1) Offering up your power, you are able to peek into less open areas of the library, removing any penalty for Uncommon knowledge.</p>\n<p dir=\"ltr\"><strong id=\"docs-internal-guid-eefc0a39-7fff-b8b8-cdc6-d3e342be7409\">Heightened </strong>(+2) Offering up your power, you are able to peek into less open areas of the library, removing any penalty for Rare knowledge.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "value": {}
+    },
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "counteraction": false,
+    "source": {
+      "value": "Ponyfinder: Tribes of Everglow"
+    },
+    "schema": {
+      "version": 0.845,
+      "lastMigration": null
+    },
+    "spellType": {
+      "value": "utility"
+    },
+    "category": {
+      "value": "spell"
+    },
+    "traditions": {
+      "value": [
+        "arcane",
+        "divine"
+      ]
+    },
+    "school": {
+      "value": "divination"
+    },
+    "components": {
+      "focus": false,
+      "material": false,
+      "somatic": true,
+      "verbal": true
+    },
+    "materials": {
+      "value": ""
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "hasCounteractCheck": {
+      "value": false
+    }
+  },
+  "img": "icons/sundries/scrolls/scroll-writing-brown-grey.webp",
+  "ownership": {
+    "default": 0,
+    "VYzg4GwxmU2rDObG": 3,
+    "vLFDiDRjrgOmIGlA": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.1.0",
+    "coreVersion": "13.344",
+    "createdTime": 1688410508861,
+    "modifiedTime": 1688491225486,
+    "lastModifiedBy": "vLFDiDRjrgOmIGlA",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "eacxegcWMkxPIZll",
+  "sort": 0
+}

@@ -1,0 +1,76 @@
+{
+  "name": "Innocent Appearance",
+  "type": "feat",
+  "img": "icons/environment/creatures/horse-brown.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p dir=\"ltr\"><strong>Prerequisites</strong> earth-bound</p>\n<p dir=\"ltr\">Your bland colors make you look more like a small horse than a proper pony. You can take advantage of this. When playing the part of a horse, you enjoy a +2 bonus to Deception rolls to play and look the part. If you are legendary in Deception, you detect as and can be affected by abilities that work on beasts while playing the part of a horse and can, at your choice, not be affected by things that normally target fey.</p>\n<p> </p>"
+    },
+    "rules": [],
+    "slug": "innocent-appearance",
+    "_migration": {
+      "version": 0.891,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.845,
+        "foundry": "11.315",
+        "system": "5.9.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "ponykind"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Ponyfinder: Tribes of Everglow",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "effects": [],
+  "folder": "b6cl0pbvRTWSCGYP",
+  "ownership": {
+    "default": 2,
+    "VYzg4GwxmU2rDObG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ea4bbfa04f46c3a52e446131fd75bae64c39365c"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.2.1",
+    "coreVersion": "13.344",
+    "createdTime": 1663012085470,
+    "modifiedTime": 1723252223106,
+    "lastModifiedBy": "RYp8kuVcyZE42EyG",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "2CvzKv5v7WDCdIO1",
+  "sort": 106250
+}

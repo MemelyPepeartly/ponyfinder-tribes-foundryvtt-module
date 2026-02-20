@@ -1,0 +1,79 @@
+{
+  "name": "Kindness of Strangers",
+  "type": "feat",
+  "img": "icons/equipment/head/mask-carved-bird-grey-pink.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p dir=\"ltr\"><strong>Access </strong>Doppelganger</p>\n<p dir=\"ltr\">If you have hit with a Strike that dealt sneak attack damage earlier during your turn, you Impersonate them. Any area of effect abilities used by allies of the enemy that they would normally use on their allies target you as well. Any enemy may attempt to Seek against your Deception DC to end this effect for them. They may also, as an action, declare the fake in their midst, ending the effect for their allies. The creature you are impersonating cannot declare your presence. If you change shape or don a new disguise, this effect ends.</p>\n<p dir=\"ltr\"> </p>"
+    },
+    "rules": [],
+    "slug": "kindness-of-strangers",
+    "_migration": {
+      "version": 0.891,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.845,
+        "foundry": "11.315",
+        "system": "5.9.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "class",
+        "rogue"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Ponyfinder: Tribes of Everglow",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "effects": [],
+  "folder": "WIJ3nqX646FD7sad",
+  "ownership": {
+    "default": 2,
+    "VYzg4GwxmU2rDObG": 3,
+    "vLFDiDRjrgOmIGlA": 3,
+    "NIwrOj8DkOBJgGv4": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ea4bbfa04f46c3a52e446131fd75bae64c39365c"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.11.5",
+    "coreVersion": "13.344",
+    "createdTime": 1663012085470,
+    "modifiedTime": 1704099269334,
+    "lastModifiedBy": "q9w3gfEhRH5NYsvh",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "RVaVMcxPX8OqpyKM",
+  "sort": 0
+}

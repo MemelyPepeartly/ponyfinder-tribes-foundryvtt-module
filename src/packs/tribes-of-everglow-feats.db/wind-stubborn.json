@@ -1,0 +1,77 @@
+{
+  "name": "Wind Stubborn",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p dir=\"ltr\"><strong>Prerequisites </strong>natural winged fly Speed</p>\n<p dir=\"ltr\">You can use, and immediately gain, the cloud kicker feat despite pegasi magic being stolen. You can do this up to 10 minutes at a time, once per hour.</p>\n<p dir=\"ltr\"><strong>Special </strong>If you are not playing during the time that weather magic is stolen, this feat is moot. Griffons may also select this feat as an ancestry feat while the magic is stolen.</p>\n<p dir=\"ltr\"> </p>"
+    },
+    "rules": [],
+    "slug": "wind-stubborn",
+    "_migration": {
+      "version": 0.891,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.845,
+        "foundry": "11.315",
+        "system": "5.9.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "griffon",
+        "ponykind"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Ponyfinder: Tribes of Everglow",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "effects": [],
+  "folder": "8JZOJ3Dpv25cR6CI",
+  "ownership": {
+    "default": 2,
+    "VYzg4GwxmU2rDObG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ea4bbfa04f46c3a52e446131fd75bae64c39365c"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.2.1",
+    "coreVersion": "13.344",
+    "createdTime": 1663012085470,
+    "modifiedTime": 1723252391040,
+    "lastModifiedBy": "RYp8kuVcyZE42EyG",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "Ybr8tYs7LnaWGxk1",
+  "sort": 0
+}

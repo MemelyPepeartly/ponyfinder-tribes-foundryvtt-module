@@ -1,0 +1,76 @@
+{
+  "name": "Combined Casting",
+  "type": "feat",
+  "img": "icons/magic/light/beam-strike-orange.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p dir=\"ltr\"><strong>Prerequisites</strong> unicorn pony heritage</p>\n<p dir=\"ltr\">You focus your magic on an ally within 60 feet that you can see, preparing to bolster their magic. The first time they Cast a Spell with a duration of less than an hour before your next turn, the spell is heightened by 1 level, to a maximum of the highest spell level the target can cast.</p>\n<p dir=\"ltr\"> </p>"
+    },
+    "rules": [],
+    "slug": "combined-casting",
+    "_migration": {
+      "version": 0.891,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.845,
+        "foundry": "11.315",
+        "system": "5.9.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "ponykind"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Ponyfinder: Tribes of Everglow",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "effects": [],
+  "folder": "z7UOop3bYddwKR1b",
+  "ownership": {
+    "default": 2,
+    "VYzg4GwxmU2rDObG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ea4bbfa04f46c3a52e446131fd75bae64c39365c"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.2.1",
+    "coreVersion": "13.344",
+    "createdTime": 1663012085470,
+    "modifiedTime": 1723253658263,
+    "lastModifiedBy": "fk9YvBqsldfUKGpW",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "OdU6zeWmGpHmJDRg",
+  "sort": 400000
+}

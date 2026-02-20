@@ -1,0 +1,78 @@
+{
+  "name": "Perilous Balance",
+  "type": "feat",
+  "img": "icons/consumables/meat/fish-tail-cut-red-gray.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p dir=\"ltr\"><strong>Prerequisites </strong>sea horse, deep visions</p>\n<p dir=\"ltr\">You may exchange your hind-legs for a powerful tail or back again. While you have a tail swim Speed increases by 30 feet but your land Speed decreases by 10 feet. Able to slap and grab with your powerful tail, your unarmed attacks while you have this tail gain the grab trait and can deal lethal damage without penalty.</p>\n<p><strong>@UUID[Compendium.ponyfinder-tribes-of-everglow.tribes-of-everglow-feats.Item.jP8eeoe8AMTeVga8]{Fish Tail}</strong></p>"
+    },
+    "rules": [],
+    "slug": "perilous-balance",
+    "_migration": {
+      "version": 0.891,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.845,
+        "foundry": "11.315",
+        "system": "5.9.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "morph",
+        "ponykind"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Ponyfinder: Tribes of Everglow",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "effects": [],
+  "folder": "uojqjZzpkGpkGqcb",
+  "ownership": {
+    "default": 2,
+    "VYzg4GwxmU2rDObG": 3,
+    "vLFDiDRjrgOmIGlA": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ea4bbfa04f46c3a52e446131fd75bae64c39365c"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.2.1",
+    "coreVersion": "13.344",
+    "createdTime": 1663012085470,
+    "modifiedTime": 1723252288923,
+    "lastModifiedBy": "fk9YvBqsldfUKGpW",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "yI0smd4JveSD3Vbv",
+  "sort": 800000
+}

@@ -1,0 +1,79 @@
+{
+  "name": "Bloody Replacement",
+  "type": "feat",
+  "img": "icons/creatures/unholy/demon-fire-horned-mask.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p dir=\"ltr\"><strong>Access </strong>Doppelganger</p>\n<p dir=\"ltr\">When impersonating a specific creature you helped kill or subdue, you enjoy a +1 circumstance bonus to Deception rolls directly related to impersonating them. If the creature is still alive, this bonus remains for 1 week. This increases by 1 if you are an expert in Deception and increases by 1 again (+3 total) if you are legendary in Deception.</p>\n<p dir=\"ltr\"> </p>"
+    },
+    "rules": [],
+    "slug": "bloody-replacement",
+    "_migration": {
+      "version": 0.891,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.845,
+        "foundry": "11.315",
+        "system": "5.9.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "class",
+        "rogue"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Ponyfinder: Tribes of Everglow",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "effects": [],
+  "folder": "WIJ3nqX646FD7sad",
+  "ownership": {
+    "default": 2,
+    "VYzg4GwxmU2rDObG": 3,
+    "vLFDiDRjrgOmIGlA": 3,
+    "NIwrOj8DkOBJgGv4": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ea4bbfa04f46c3a52e446131fd75bae64c39365c"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.11.5",
+    "coreVersion": "13.344",
+    "createdTime": 1663012085470,
+    "modifiedTime": 1704099296052,
+    "lastModifiedBy": "q9w3gfEhRH5NYsvh",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "WeEP8KBXrdnzB51o",
+  "sort": 0
+}

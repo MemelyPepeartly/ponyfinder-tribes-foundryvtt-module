@@ -1,0 +1,76 @@
+{
+  "name": "Weather Control",
+  "type": "feat",
+  "img": "icons/magic/air/weather-clouds-rainbow.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p dir=\"ltr\"><strong>Prerequisites </strong>cloud kicker, expert in Nature</p>\n<p dir=\"ltr\">You gain access to the <strong>@UUID[Compendium.ponyfinder-tribes-of-everglow.tribes-of-everglow-spells.Item.fXH0Lna6dZ8oxhXO]{Weather Control}</strong>weather control ritual and learn it immediately. Pegasi, and even other ponies, may respect you for your position in controlling the weather and ensuring the protection and health of towns and cities.</p>\n<p dir=\"ltr\"> </p>"
+    },
+    "rules": [],
+    "slug": "weather-control",
+    "_migration": {
+      "version": 0.891,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.845,
+        "foundry": "11.315",
+        "system": "5.9.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "ponykind"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Ponyfinder: Tribes of Everglow",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "effects": [],
+  "folder": "8JZOJ3Dpv25cR6CI",
+  "ownership": {
+    "default": 2,
+    "VYzg4GwxmU2rDObG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ea4bbfa04f46c3a52e446131fd75bae64c39365c"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.2.1",
+    "coreVersion": "13.344",
+    "createdTime": 1663012085470,
+    "modifiedTime": 1723252655461,
+    "lastModifiedBy": "fk9YvBqsldfUKGpW",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "CU8Df655y2fUR2oN",
+  "sort": 100000
+}

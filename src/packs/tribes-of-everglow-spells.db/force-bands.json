@@ -1,0 +1,128 @@
+{
+  "folder": "4x8EqgxF0PtIrmzi",
+  "name": "Force Bands",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p dir=\"ltr\"> </p>\n<p dir=\"ltr\"><strong>Access </strong>unicorn</p>\n<p dir=\"ltr\"><strong>Cast </strong>[two-actions] somatic, verbal</p>\n<p dir=\"ltr\"><strong>Range </strong>30 feet</p>\n<p dir=\"ltr\"><strong>Saving Throw </strong>Reflex</p>\n<p dir=\"ltr\"> </p>\n<hr />\n<p> </p>\n<p dir=\"ltr\">You hurl a band of magic that attempts to ensnare the target creature, affecting them depending on their saving throw.</p>\n<p dir=\"ltr\"><strong>Critical Success </strong>The creature is unaffected.</p>\n<p dir=\"ltr\"><strong>Success </strong>The creature is clumsy 1 for 1 round.</p>\n<p dir=\"ltr\"><strong>Failure </strong>The creature is immobilized. If they are within 10' of a solid surface, they are tethered to it. They are also clumsy 2. They may, as an action, attempt another save the end the effect, or it will end on its own after a minute.</p>\n<p dir=\"ltr\"><strong>Critical Failure</strong> The creature is immobilized. If they are within 10' of a solid surface, they are tethered to it. They are also clumsy 3. They may, as an action, attempt another save the end the effect, or it will end on its own after 10 minutes.</p>\n<p dir=\"ltr\"> </p>\n<hr />\n<p> </p>\n<p dir=\"ltr\"><strong id=\"docs-internal-guid-031916f3-7fff-a447-ac5e-33cb7d1043cb\">Heightened (+2)</strong> Another creature within range can be affected.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "force"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "value": {}
+    },
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "counteraction": false,
+    "source": {
+      "value": "Ponyfinder: Tribes of Everglow"
+    },
+    "schema": {
+      "version": 0.845,
+      "lastMigration": null
+    },
+    "spellType": {
+      "value": "save"
+    },
+    "category": {
+      "value": "spell"
+    },
+    "traditions": {
+      "value": [
+        "arcane",
+        "divine"
+      ]
+    },
+    "school": {
+      "value": "evocation"
+    },
+    "components": {
+      "focus": false,
+      "material": false,
+      "somatic": true,
+      "verbal": true
+    },
+    "materials": {
+      "value": ""
+    },
+    "save": {
+      "value": "reflex",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "hasCounteractCheck": {
+      "value": false
+    },
+    "heightening": {
+      "type": "interval",
+      "interval": 2,
+      "damage": {}
+    }
+  },
+  "img": "icons/magic/control/debuff-chains-orb-movement-blue.webp",
+  "ownership": {
+    "default": 0,
+    "VYzg4GwxmU2rDObG": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.1.0",
+    "coreVersion": "13.344",
+    "createdTime": 1688410508861,
+    "modifiedTime": 1688411134366,
+    "lastModifiedBy": "VYzg4GwxmU2rDObG",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "mVx12q663SVs98hg",
+  "sort": 0
+}

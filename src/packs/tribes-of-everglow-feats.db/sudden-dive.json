@@ -1,0 +1,76 @@
+{
+  "name": "Sudden Dive",
+  "type": "feat",
+  "img": "icons/commodities/cloth/cloth-worn-leaf-green.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p dir=\"ltr\"><strong>Prerequisites</strong> leather wing</p>\n<p dir=\"ltr\"><strong>Trigger </strong>You are attacked and not off-guard while flying.</p>\n<p dir=\"ltr\">In the dark caves, terrible monsters lurk. In the open skies, there are griffons, and worse. Knowing how to suddenly fall can be surprisingly helpful. You immediately lose 20 feet of altitude, but gain a +3 circumstance bonus to your AC. If this altitude loss results in meeting the ground, you crash and take damage for falling.</p>\n<p dir=\"ltr\"> </p>"
+    },
+    "rules": [],
+    "slug": "sudden-dive",
+    "_migration": {
+      "version": 0.891,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.845,
+        "foundry": "11.315",
+        "system": "5.9.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "ponykind"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Ponyfinder: Tribes of Everglow",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "effects": [],
+  "folder": "4cfxSJATrF1jpPtZ",
+  "ownership": {
+    "default": 3,
+    "VYzg4GwxmU2rDObG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ea4bbfa04f46c3a52e446131fd75bae64c39365c"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.2.1",
+    "coreVersion": "13.344",
+    "createdTime": 1663012085470,
+    "modifiedTime": 1723252745247,
+    "lastModifiedBy": "fk9YvBqsldfUKGpW",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "rQmh6aMKgRNGbMZD",
+  "sort": 200000
+}

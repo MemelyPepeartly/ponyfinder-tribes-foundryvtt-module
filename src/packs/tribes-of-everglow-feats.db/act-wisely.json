@@ -1,0 +1,77 @@
+{
+  "name": "Act Wisely",
+  "type": "feat",
+  "img": "icons/magic/earth/strike-body-stone-crumble.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p dir=\"ltr\">Prerequisites zebra</p>\n<p dir=\"ltr\"><strong>Trigger </strong>Succeed at Recall Knowledge on a creature to identify it or its abilities.</p>\n<p dir=\"ltr\">Against you, its resistances are lowered by 2. If you are a master of the skill used, this decrease is 5 instead. If you are legendary, you decrease them by 10. Resistance cannot be lowered beneath 0. This only applies to damage you inflict, not your allies. This can only be active for one specific creature and using this ability again replaces your target.</p>\n<p dir=\"ltr\"> </p>"
+    },
+    "rules": [],
+    "slug": "act-wisely",
+    "_migration": {
+      "version": 0.891,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.845,
+        "foundry": "11.315",
+        "system": "5.9.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "ponykind"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Ponyfinder: Tribes of Everglow",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "effects": [],
+  "folder": "CSMaLi5tiqJUw38J",
+  "ownership": {
+    "default": 2,
+    "VYzg4GwxmU2rDObG": 3,
+    "vLFDiDRjrgOmIGlA": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ea4bbfa04f46c3a52e446131fd75bae64c39365c"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.2.1",
+    "coreVersion": "13.344",
+    "createdTime": 1663012085470,
+    "modifiedTime": 1723252549536,
+    "lastModifiedBy": "fk9YvBqsldfUKGpW",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "qw5rULGlS9KAmjHl",
+  "sort": 100000
+}

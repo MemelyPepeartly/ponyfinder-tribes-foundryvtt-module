@@ -1,0 +1,77 @@
+{
+  "name": "Timeless Fog [Focus]",
+  "type": "feat",
+  "img": "icons/magic/time/hourglass-brown-orange.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p dir=\"ltr\"><strong>Prerequisites</strong> ghost pony</p>\n<p dir=\"ltr\">When is now, is it later? It may have already passed. It all depends on how you consider it, and considering is something you enjoy doing. Time ceases to have meaning for you, or at least you stop aging and lose any bonus or penalty relating to your age. If you do not have a focus pool, you gain a focus pool and one focus point. You can Refocus by spending 10 minutes perfectly still, considering all you know. By warping time in the area, you cause an enemy to become Stunned 1 or an ally to become Quickened, able to Step, Stride, or Strike for 1 round.</p>"
+    },
+    "rules": [],
+    "slug": "timeless-fog-focus",
+    "_migration": {
+      "version": 0.891,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.845,
+        "foundry": "11.315",
+        "system": "5.9.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "ponykind"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Ponyfinder: Tribes of Everglow",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "effects": [],
+  "folder": "lpZ2hrS9UhTB7fKa",
+  "ownership": {
+    "default": 3,
+    "VYzg4GwxmU2rDObG": 3,
+    "6eYXjOVP8C9nkMdx": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ea4bbfa04f46c3a52e446131fd75bae64c39365c"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.2.1",
+    "coreVersion": "13.344",
+    "createdTime": 1663012085470,
+    "modifiedTime": 1723252204790,
+    "lastModifiedBy": "fk9YvBqsldfUKGpW",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "OIrs79Mm1qDmJi1X",
+  "sort": 0
+}

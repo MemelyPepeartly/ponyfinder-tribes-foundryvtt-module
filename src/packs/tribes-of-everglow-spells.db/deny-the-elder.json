@@ -1,0 +1,127 @@
+{
+  "folder": "BUfgWUMZpgIhBtUE",
+  "name": "Deny the Elder",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p dir=\"ltr\"><strong>Access </strong>sea horse</p>\n<p dir=\"ltr\"><strong>Cast </strong>[two-actions] somatic, verbal</p>\n<p dir=\"ltr\"><strong>Range </strong>30 feet; <strong>Targets </strong>1 aberration</p>\n<p dir=\"ltr\"><strong>Saving Throw</strong> Fortitude</p>\n<p dir=\"ltr\"> </p>\n<hr />\n<p> </p>\n<p dir=\"ltr\">The target aberration loses access to one named special attack or defensive ability for the duration of the spell. You must name the ability to be sealed before a saving throw is made. The duration of this effect depends on the saving throw.</p>\n<p dir=\"ltr\"><strong>Critical Success </strong>The creature is unaffected.</p>\n<p dir=\"ltr\"><strong>Success </strong>The creature loses access to the named ability for 1 round.</p>\n<p dir=\"ltr\"><strong>Failure </strong>The creature loses access to the named ability for 10 minutes.</p>\n<p dir=\"ltr\"><strong>Critical Failure </strong>The creature loses access to the named ability for 1 day.</p>\n<p dir=\"ltr\"> </p>\n<hr />\n<p> </p>\n<p dir=\"ltr\">Heightened (+1) Another creature of the same type within range is affected. The same ability is removed from all targets.</p>\n<p dir=\"ltr\"> </p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 5
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 aberration"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "value": {}
+    },
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "counteraction": false,
+    "source": {
+      "value": "Ponyfinder: Tribes of Everglow"
+    },
+    "schema": {
+      "version": 0.845,
+      "lastMigration": null
+    },
+    "spellType": {
+      "value": "save"
+    },
+    "category": {
+      "value": "spell"
+    },
+    "traditions": {
+      "value": [
+        "arcane",
+        "divine"
+      ]
+    },
+    "school": {
+      "value": "transmutation"
+    },
+    "components": {
+      "focus": false,
+      "material": false,
+      "somatic": true,
+      "verbal": true
+    },
+    "materials": {
+      "value": ""
+    },
+    "save": {
+      "value": "fortitude",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "hasCounteractCheck": {
+      "value": false
+    },
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {}
+    }
+  },
+  "img": "icons/creatures/fish/squid-kraken-orange.webp",
+  "ownership": {
+    "default": 0,
+    "VYzg4GwxmU2rDObG": 3,
+    "vLFDiDRjrgOmIGlA": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.1.0",
+    "coreVersion": "13.344",
+    "createdTime": 1688410508861,
+    "modifiedTime": 1688484469854,
+    "lastModifiedBy": "vLFDiDRjrgOmIGlA",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "Fztl5EM5ix7B9pUH",
+  "sort": 0
+}

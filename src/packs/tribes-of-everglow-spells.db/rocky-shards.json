@@ -1,0 +1,131 @@
+{
+  "folder": "1Cp0R0E7PAq1Su3z",
+  "name": "Rocky Shards",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p dir=\"ltr\">[Uncommon][Attack][Evocation][Dynamic Heightening]</p>\n<p dir=\"ltr\"><strong>Traditions </strong>arcane, primal</p>\n<p dir=\"ltr\"><strong>Access </strong>earth-bound</p>\n<p dir=\"ltr\"><strong>Cast </strong>[two-actions] somatic, verbal</p>\n<p dir=\"ltr\"><strong>Range </strong>30 feet</p>\n<p dir=\"ltr\"> </p>\n<hr />\n<p> </p>\n<p dir=\"ltr\">With a sudden flick, you hurl jagged spikes of stone from your hoof. These spikes deal 3d4 points of piercing damage with a successful spell attack roll. On a critical hit, the target is stunned 1. If you are standing on stone when casting this spell, you may select a secondary target within range that takes half damage (compare both ACs against the same attack roll).</p>\n<p dir=\"ltr\"> </p>\n<hr />\n<p> </p>\n<p dir=\"ltr\">Heightened (+1) The range is increased by 60 feet.</p>\n<p dir=\"ltr\">Heightened (+1) The damage is increased by 3d4.</p>\n<p dir=\"ltr\">Heightened (+1) The secondary target takes full damage.</p>\n<p dir=\"ltr\">Heightened (+2) The rocks become jagged and serrated, causing bleeding wounds. On a hit, the target suffers bleeding equal to the number of damage dice of the spell.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "attack"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "value": {
+        "WpHHj0UlkqKkHjfP": {
+          "value": "3d4",
+          "type": {
+            "value": "piercing",
+            "categories": [],
+            "subtype": ""
+          },
+          "applyMod": false
+        }
+      }
+    },
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "counteraction": false,
+    "source": {
+      "value": "Ponyfinder: Tribes of Everglow"
+    },
+    "schema": {
+      "version": 0.845,
+      "lastMigration": null
+    },
+    "spellType": {
+      "value": "attack"
+    },
+    "category": {
+      "value": "spell"
+    },
+    "traditions": {
+      "value": [
+        "arcane",
+        "primal"
+      ]
+    },
+    "school": {
+      "value": "evocation"
+    },
+    "components": {
+      "focus": false,
+      "material": false,
+      "somatic": true,
+      "verbal": true
+    },
+    "materials": {
+      "value": ""
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "hasCounteractCheck": {
+      "value": false
+    }
+  },
+  "_id": "M1Z5aFsHIWtuYO1J",
+  "img": "icons/commodities/stone/rock-chunk-brown.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "VYzg4GwxmU2rDObG": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.1.0",
+    "coreVersion": "13.344",
+    "createdTime": 1688403556637,
+    "modifiedTime": 1688410683041,
+    "lastModifiedBy": "VYzg4GwxmU2rDObG",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  }
+}

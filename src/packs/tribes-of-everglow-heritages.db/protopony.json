@@ -1,0 +1,72 @@
+{
+  "name": "Protopony",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<h2 dir=\"ltr\">Protopony Heritage (PF2)</h2>\n<p>Unformed precursors of the later heritages, Protoponies are at home beside the water. You have a swim Speed equal to your Speed and can take sea horse ancestry feats. Your Speed decreases by 5 feet.  Ability Boosts: Free, Free Ability Flaw: None</p>"
+    },
+    "rules": [
+      {
+        "key": "BaseSpeed",
+        "selector": "swim-speed",
+        "value": "@actor.attributes.speed.total"
+      },
+      {
+        "key": "FlatModifier",
+        "label": "protopony",
+        "selector": "land-speed",
+        "value": -5
+      }
+    ],
+    "slug": "protopony",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "ancestry": {
+      "name": "Ponykind",
+      "slug": "ponykind",
+      "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Item.GMS3WSph0hBeT6ct"
+    },
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.849,
+      "lastMigration": null
+    }
+  },
+  "_id": "79tca2UsLpLGjcME",
+  "img": "icons/consumables/meat/fish-tail-cut-red-gray.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "vLFDiDRjrgOmIGlA": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.2.3",
+    "coreVersion": "13.344",
+    "createdTime": 1690397798665,
+    "modifiedTime": 1690398176580,
+    "lastModifiedBy": "vLFDiDRjrgOmIGlA",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  }
+}

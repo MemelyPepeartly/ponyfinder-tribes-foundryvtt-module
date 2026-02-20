@@ -1,0 +1,76 @@
+{
+  "name": "Shield of Will",
+  "type": "feat",
+  "img": "icons/magic/defensive/shield-barrier-blue.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p dir=\"ltr\"><strong>Prerequisites</strong> Advanced Horn Magic, unicorn pony heritage</p>\n<p dir=\"ltr\">You may summon or dismiss a floating plane of force held in one of your magic hands that acts as a shield with an item level equal to or less than half your level. You may add shield runes on your horn that will affect shields you summon. Shields removed from your grip in any way vanish instantly. If a shield is destroyed, you may not summon a new one until your next daily preparation.</p>\n<p dir=\"ltr\"><strong id=\"docs-internal-guid-d980d7bb-7fff-cba2-85cc-1118a1d53ae1\">Special </strong>This feat can be taken as a class feat instead. In this case, the shield is considered raised at the same time it is created.</p>"
+    },
+    "rules": [],
+    "slug": "shield-of-will",
+    "_migration": {
+      "version": 0.891,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.845,
+        "foundry": "11.315",
+        "system": "5.9.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "ponykind"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Ponyfinder: Tribes of Everglow",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "effects": [],
+  "folder": "z7UOop3bYddwKR1b",
+  "ownership": {
+    "default": 2,
+    "VYzg4GwxmU2rDObG": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ea4bbfa04f46c3a52e446131fd75bae64c39365c"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.2.1",
+    "coreVersion": "13.344",
+    "createdTime": 1663012085470,
+    "modifiedTime": 1723252238016,
+    "lastModifiedBy": "fk9YvBqsldfUKGpW",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "Y1QzpqAJQL8pjYc0",
+  "sort": 600000
+}

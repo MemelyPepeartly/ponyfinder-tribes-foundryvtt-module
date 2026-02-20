@@ -1,0 +1,77 @@
+{
+  "name": "Lost Child of Ry'Neigh",
+  "type": "feat",
+  "img": "icons/environment/settlement/temple-night.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p dir=\"ltr\"><strong>Prerequisites </strong>sea horse, Master in Athletics, expert with a trident</p>\n<p dir=\"ltr\">Any trident you wield acts as if it had the frost property rune. If it already had it, it gains greater frost rune instead. Ice damage you deal ignores 5 points of cold resistance. If the target is immune to cold damage, it gains cold resistance 30 against your attacks instead (which is then reduced). You may wield a trident with your mouth as if you were wielding it in two hands.</p>\n<p dir=\"ltr\"> </p>"
+    },
+    "rules": [],
+    "slug": "lost-child-of-ryneigh",
+    "_migration": {
+      "version": 0.891,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.845,
+        "foundry": "11.315",
+        "system": "5.9.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "ponykind"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Ponyfinder: Tribes of Everglow",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "effects": [],
+  "folder": "uojqjZzpkGpkGqcb",
+  "ownership": {
+    "default": 2,
+    "VYzg4GwxmU2rDObG": 3,
+    "vLFDiDRjrgOmIGlA": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ea4bbfa04f46c3a52e446131fd75bae64c39365c"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.2.1",
+    "coreVersion": "13.344",
+    "createdTime": 1663012085470,
+    "modifiedTime": 1723253543670,
+    "lastModifiedBy": "fk9YvBqsldfUKGpW",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "VIb2zxg9xHJUAdOQ",
+  "sort": 700000
+}

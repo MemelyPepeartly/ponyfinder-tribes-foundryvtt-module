@@ -1,0 +1,68 @@
+{
+  "name": "Lover's Sacrifice",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p dir=\"ltr\">Lover's Sacrifice [reaction]</p>\n<p dir=\"ltr\"><strong>Trigger</strong> An ally within 5 feet is damaged by a non-area effect.</p>\n<p dir=\"ltr\">You throw yourself in harm's way, causing you to take the damage instead of your friend. If the effect that caused the damage would have other effects, you take that as well. You may make a saving throw against the other effects, but take the damage that was already being inflicted on your friend regardless of that saving throw.</p>\n<p> </p>"
+    },
+    "rules": [],
+    "slug": "lovers-sacrifice",
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "reaction"
+    },
+    "category": null,
+    "actions": {
+      "value": null
+    },
+    "deathNote": false,
+    "source": {
+      "value": "Ponyfinder: Tribes of Everglow"
+    },
+    "schema": {
+      "version": 0.849,
+      "lastMigration": null
+    },
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    }
+  },
+  "_id": "Wburm3nIzoC8TeeR",
+  "img": "icons/magic/life/heart-glowing-red.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "vLFDiDRjrgOmIGlA": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.2.3",
+    "coreVersion": "13.344",
+    "createdTime": 1690398275329,
+    "modifiedTime": 1690398402388,
+    "lastModifiedBy": "vLFDiDRjrgOmIGlA",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  }
+}

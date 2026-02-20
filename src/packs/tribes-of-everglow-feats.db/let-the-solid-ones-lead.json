@@ -1,0 +1,77 @@
+{
+  "name": "Let the Solid Ones Lead",
+  "type": "feat",
+  "img": "icons/magic/nature/stealth-hide-beast-eyes-green.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p dir=\"ltr\"><strong>Prerequisites</strong> ghost pony</p>\n<p dir=\"ltr\"><strong>Frequency</strong> once an hour</p>\n<p dir=\"ltr\"><strong>Trigger</strong> Be attacked or have a single-target spell cast at you when an ally is within 5 feet and you are not off-guard.</p>\n<p dir=\"ltr\">Provided the ally is also in range of the effect or attack you are reacting to, they become the target instead of you. They can handle it. Yours is not for such gross violence. If you are an expert at Reflex saves, you can use this twice an hour. At master, this increases to 3. At legendary, this increases to 4.</p>"
+    },
+    "rules": [],
+    "slug": "let-the-solid-ones-lead",
+    "_migration": {
+      "version": 0.891,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.845,
+        "foundry": "11.315",
+        "system": "5.9.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "ponykind"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Ponyfinder: Tribes of Everglow",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "effects": [],
+  "folder": "lpZ2hrS9UhTB7fKa",
+  "ownership": {
+    "default": 3,
+    "VYzg4GwxmU2rDObG": 3,
+    "6eYXjOVP8C9nkMdx": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ea4bbfa04f46c3a52e446131fd75bae64c39365c"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.2.1",
+    "coreVersion": "13.344",
+    "createdTime": 1663012085470,
+    "modifiedTime": 1723253550763,
+    "lastModifiedBy": "fk9YvBqsldfUKGpW",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "FGZa2XIyOdDuUAdx",
+  "sort": 0
+}

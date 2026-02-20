@@ -1,0 +1,70 @@
+{
+  "name": "Short Leg",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Small of stature, but not of heart, short legs are hardy ponies born of a god they feel a literal kinship to. They are Small sized.  Ability Boosts: Constitution, Charisma, Free. Ability Flaw: Strength. They gain the following reaction:</p>\n<p><strong><strong id=\"docs-internal-guid-b1687969-7fff-f249-3437-fa6f3b7341a7\">@UUID[Compendium.ponyfinder-tribes-of-everglow.tribes-of-everglow-heritages.Item.Wburm3nIzoC8TeeR]{Lover's Sacrifice}</strong></strong></p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "uuid": "Compendium.ponyfinder-tribes-of-everglow.tribes-of-everglow-heritages.Item.Wburm3nIzoC8TeeR"
+      },
+      {
+        "key": "CreatureSize",
+        "value": "small"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "ancestry": {
+      "name": "Ponykind",
+      "slug": "ponykind",
+      "uuid": "Compendium.ponyfinder-foundryvtt-module.ponyfinder-ancestries.Item.GMS3WSph0hBeT6ct"
+    },
+    "source": {
+      "value": ""
+    },
+    "schema": {
+      "version": 0.849,
+      "lastMigration": null
+    }
+  },
+  "_id": "blzMWOOK3KLXMJm6",
+  "img": "icons/magic/life/heart-red-blue.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "vLFDiDRjrgOmIGlA": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.2.3",
+    "coreVersion": "13.344",
+    "createdTime": 1690397784485,
+    "modifiedTime": 1690398578991,
+    "lastModifiedBy": "vLFDiDRjrgOmIGlA",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  }
+}

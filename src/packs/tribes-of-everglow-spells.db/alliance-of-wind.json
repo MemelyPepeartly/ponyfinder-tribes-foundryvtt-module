@@ -1,0 +1,127 @@
+{
+  "folder": "OUZUccE4PFZkJBp7",
+  "name": "Alliance of Wind",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p dir=\"ltr\"><strong>Access</strong> pegasus or griffon</p>\n<p dir=\"ltr\">Cast [one-action] verbal</p>\n<p dir=\"ltr\">Range 120 feet</p>\n<p dir=\"ltr\"> </p>\n<hr />\n<p> </p>\n<p dir=\"ltr\">With a sudden shout, you send a personal zephyr to harass and pin a foe. Every round they wish to fly, including when the spell is cast if they are already flying, they must make an Athletics or Acrobatics (whichever is higher) check against your spell DC.</p>\n<p dir=\"ltr\"><strong>Critical</strong> <strong>Success </strong>The creature is unaffected.</p>\n<p dir=\"ltr\"><strong>Success </strong>The creature loses 10 feet of fly Speed for a round.</p>\n<p dir=\"ltr\"><strong>Failure </strong>The creature immediately loses 20 feet of altitude, possibly crashing, and loses 20 feet of fly Speed for a round.</p>\n<p dir=\"ltr\"><strong>Critical Failure </strong>The creature immediately stops flying and crashes (They may still attempt to Arrest a Fall). Their fly Speed is considered 0 for a round.</p>\n<p dir=\"ltr\"> </p>\n<hr />\n<p> </p>\n<p dir=\"ltr\">Heightened (+1) You may target an additional creature within range.</p>\n<p dir=\"ltr\"> </p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "air"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "value": {}
+    },
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "counteraction": false,
+    "source": {
+      "value": "Ponyfinder: Tribes of Everglow"
+    },
+    "schema": {
+      "version": 0.845,
+      "lastMigration": null
+    },
+    "spellType": {
+      "value": "utility"
+    },
+    "category": {
+      "value": "spell"
+    },
+    "traditions": {
+      "value": [
+        "primal"
+      ]
+    },
+    "school": {
+      "value": "evocation"
+    },
+    "components": {
+      "focus": false,
+      "material": false,
+      "somatic": false,
+      "verbal": true
+    },
+    "materials": {
+      "value": ""
+    },
+    "save": {
+      "value": "",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "hasCounteractCheck": {
+      "value": false
+    },
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {}
+    }
+  },
+  "img": "icons/magic/air/wind-tornado-funnel-blue-grey.webp",
+  "ownership": {
+    "default": 0,
+    "VYzg4GwxmU2rDObG": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.1.0",
+    "coreVersion": "13.344",
+    "createdTime": 1688410508861,
+    "modifiedTime": 1688431580955,
+    "lastModifiedBy": "VYzg4GwxmU2rDObG",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "3exhwE4fqT2Z92c9",
+  "sort": 0
+}

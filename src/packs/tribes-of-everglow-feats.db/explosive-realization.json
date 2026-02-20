@@ -1,0 +1,79 @@
+{
+  "name": "Explosive Realization",
+  "type": "feat",
+  "img": "icons/magic/earth/explosion-lava-orange.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p dir=\"ltr\"><strong>Access </strong>Construct or half construct</p>\n<p dir=\"ltr\"><strong>Trigger</strong> You fail or critically fail a Will saving throw.</p>\n<p dir=\"ltr\"><strong id=\"docs-internal-guid-8971a902-7fff-c794-1172-03bf87b2a857\"></strong>At the instant of failure, you detonate any one bomb you have on your person. This gives you a circumstance bonus to your Will save equal to the dice of damage it deals, which could change the results. Success or not, you take damage equal to the number of damage dice of the bomb plus 1. This damage cannot be avoided or mitigated.</p>\n<p dir=\"ltr\"> </p>"
+    },
+    "rules": [],
+    "slug": "explosive-realization",
+    "_migration": {
+      "version": 0.891,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.845,
+        "foundry": "11.315",
+        "system": "5.9.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "alchemist",
+        "class"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Ponyfinder: Tribes of Everglow",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "effects": [],
+  "folder": "NjRsZRocUxGcSoPv",
+  "ownership": {
+    "default": 2,
+    "VYzg4GwxmU2rDObG": 3,
+    "vLFDiDRjrgOmIGlA": 3,
+    "NIwrOj8DkOBJgGv4": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ea4bbfa04f46c3a52e446131fd75bae64c39365c"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.9.1",
+    "coreVersion": "13.344",
+    "createdTime": 1663012085470,
+    "modifiedTime": 1700248291048,
+    "lastModifiedBy": "3jY5t0UOVRIEcYYV",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "A17CLXBqstyztWLm",
+  "sort": 800000
+}

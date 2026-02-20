@@ -1,0 +1,121 @@
+{
+  "folder": "4A58HLnRc03x8xxy",
+  "name": "Shadow Snare",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p dir=\"ltr\"><strong>Access</strong> leather wing</p>\n<p dir=\"ltr\"><strong>Cast </strong>[two-actions] somatic, verbal</p>\n<p dir=\"ltr\"><strong>Range </strong>30 feet; <strong>Targets</strong> 1 creatures</p>\n<p dir=\"ltr\"><strong>Duration </strong>1 minute</p>\n<p dir=\"ltr\"><strong>Save </strong>Reflex</p>\n<p dir=\"ltr\"> </p>\n<hr />\n<p> </p>\n<p dir=\"ltr\">Ensnaring a foe with sudden tendrils of semi-real shadow, the victim gains the immobilized condition. A creature so affected can free itself with [two-actions] or be freed by an adjacent ally that spends [two-actions] providing aid. Shadow snare is not tethered to any other object. Once caught in a shadow snare, a person cannot be snared again by you until the next time you do your daily preparations.</p>\n<p dir=\"ltr\"><strong>Critical Success </strong>The creature is unaffected.</p>\n<p dir=\"ltr\"><strong>Success </strong>The spell's duration is only 1 round.</p>\n<p dir=\"ltr\">Failure The spell works normally.</p>\n<p dir=\"ltr\">Critical Failure Removing the snare requires [three-actions].</p>\n<p dir=\"ltr\"> </p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": null,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "value": {}
+    },
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": ""
+    },
+    "counteraction": false,
+    "source": {
+      "value": "Ponyfinder: Tribes of Everglow"
+    },
+    "schema": {
+      "version": 0.845,
+      "lastMigration": null
+    },
+    "spellType": {
+      "value": "save"
+    },
+    "category": {
+      "value": "spell"
+    },
+    "traditions": {
+      "value": [
+        "arcane",
+        "primal"
+      ]
+    },
+    "school": {
+      "value": "evocation"
+    },
+    "components": {
+      "focus": false,
+      "material": false,
+      "somatic": true,
+      "verbal": true
+    },
+    "materials": {
+      "value": ""
+    },
+    "save": {
+      "value": "reflex",
+      "basic": ""
+    },
+    "sustained": {
+      "value": false
+    },
+    "hasCounteractCheck": {
+      "value": false
+    }
+  },
+  "img": "icons/magic/control/debuff-energy-snare-purple-pink.webp",
+  "ownership": {
+    "default": 0,
+    "VYzg4GwxmU2rDObG": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.1.0",
+    "coreVersion": "13.344",
+    "createdTime": 1688410508861,
+    "modifiedTime": 1688475505945,
+    "lastModifiedBy": "VYzg4GwxmU2rDObG",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "oyoLO10VUWevk6dO",
+  "sort": 0
+}

@@ -1,0 +1,77 @@
+{
+  "name": "Space and Time Comprehension",
+  "type": "feat",
+  "img": "icons/magic/time/hourglass-tilted-glowing-gold.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p dir=\"ltr\"><strong>Prerequisites</strong> ghost pony, timeless fog</p>\n<p dir=\"ltr\">You gain a +2 circumstance bonus to saves against time and teleport spells and effects. When there would be a chance of a teleport spell going awry when you cast it, the odds are lowered in your favor. With a DC 15 Occultism check you can determine what plane of existence you are in, and any time that you are subjected to an effect that makes you older or younger you may immediately gain or lose (your choice) a year of age instead.</p>\n<p dir=\"ltr\"> </p>"
+    },
+    "rules": [],
+    "slug": "space-and-time-comprehension",
+    "_migration": {
+      "version": 0.891,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.845,
+        "foundry": "11.315",
+        "system": "5.9.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "ponykind"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Ponyfinder: Tribes of Everglow",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 13
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "effects": [],
+  "folder": "lpZ2hrS9UhTB7fKa",
+  "ownership": {
+    "default": 3,
+    "VYzg4GwxmU2rDObG": 3,
+    "6eYXjOVP8C9nkMdx": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ea4bbfa04f46c3a52e446131fd75bae64c39365c"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.2.1",
+    "coreVersion": "13.344",
+    "createdTime": 1663012085470,
+    "modifiedTime": 1723252860545,
+    "lastModifiedBy": "fk9YvBqsldfUKGpW",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "D97ebQpS37OON2oa",
+  "sort": 0
+}

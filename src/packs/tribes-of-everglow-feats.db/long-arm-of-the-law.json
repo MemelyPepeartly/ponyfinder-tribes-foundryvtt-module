@@ -1,0 +1,82 @@
+{
+  "name": "Long arm of the law",
+  "type": "feat",
+  "img": "icons/equipment/hand/gauntlet-thick-armored-gold.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p dir=\"ltr\"><strong>Requirements </strong>Antean</p>\n<p dir=\"ltr\">Your reach increases by 5 feet.</p>\n<p dir=\"ltr\"> </p>"
+    },
+    "rules": [],
+    "slug": "long-arm-of-the-law",
+    "_migration": {
+      "version": 0.891,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.845,
+        "foundry": "11.315",
+        "system": "5.9.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "champion"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Ponyfinder: Tribes of Everglow",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "antean"
+        }
+      ]
+    },
+    "location": null
+  },
+  "effects": [],
+  "folder": "2zP5GNx3SZEFATcy",
+  "ownership": {
+    "default": 2,
+    "VYzg4GwxmU2rDObG": 3,
+    "vLFDiDRjrgOmIGlA": 3,
+    "NIwrOj8DkOBJgGv4": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ea4bbfa04f46c3a52e446131fd75bae64c39365c"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.9.1",
+    "coreVersion": "13.344",
+    "createdTime": 1663012085470,
+    "modifiedTime": 1700248291048,
+    "lastModifiedBy": "3jY5t0UOVRIEcYYV",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "vYnlP1kjpLBVwk7U",
+  "sort": 0
+}

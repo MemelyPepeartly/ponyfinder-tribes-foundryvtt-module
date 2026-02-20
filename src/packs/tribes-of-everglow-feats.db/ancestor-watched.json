@@ -1,0 +1,74 @@
+{
+  "folder": "1P1KDCPu7nDPL8NY",
+  "name": "Ancestor Watched",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p dir=\"ltr\"><strong>Frequency</strong> Once per day</p>\n<p dir=\"ltr\"><strong>Trigger</strong> You critically fail a saving throw or are struck with a critical hit.</p>\n<p><strong>Effect</strong> The effect is reduced in severity by one step (critical hit to hit or critical failure to failure).</p>"
+    },
+    "rules": [],
+    "slug": "ancestor-watched",
+    "_migration": {
+      "version": 0.891,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.879,
+        "foundry": "11.315",
+        "system": "5.9.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Tribes of Everglow",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "reaction"
+    },
+    "category": null,
+    "actions": {
+      "value": null
+    },
+    "deathNote": false,
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    },
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    }
+  },
+  "_id": "IWPqXxYdV1wj0JEK",
+  "img": "systems/pf2e/icons/default-icons/action.svg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "vLFDiDRjrgOmIGlA": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "b1d9edd0ce4e25fe45cc37e3f23c3869023792db"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.9.1",
+    "coreVersion": "13.344",
+    "createdTime": 1699483408305,
+    "modifiedTime": 1700248291048,
+    "lastModifiedBy": "3jY5t0UOVRIEcYYV",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  }
+}

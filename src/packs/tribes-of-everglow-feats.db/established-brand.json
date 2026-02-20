@@ -1,0 +1,77 @@
+{
+  "name": "Established Brand",
+  "type": "feat",
+  "img": "icons/consumables/fruit/apple-ripe-red.webp",
+  "effects": [],
+  "folder": "b6cl0pbvRTWSCGYP",
+  "flags": {
+    "scene-packer": {
+      "hash": "67efb0eef1cda0e1015352746d1c7b3507b5a9d9"
+    },
+    "core": {}
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p dir=\"ltr\"><strong id=\"docs-internal-guid-f4d183da-7fff-c323-35b4-ef796ec82d06\">Prerequisites earth-bound</strong></p>\n<p dir=\"ltr\">When arriving in a new city, make a Diplomacy or Society check with a -1 penalty per day's distance from home (to a maximum penalty of -10) and consult Table: Established Brand for the effect.</p>\n<p dir=\"ltr\"><strong>Special:</strong> You can only take this feat at 1st level.</p>\n<h1 dir=\"ltr\">Table: Established Brand</h1>\n<div dir=\"ltr\">\n<table><colgroup><col></col><col></col></colgroup>\n<tbody>\n<tr>\n<td>\n<p dir=\"ltr\">Result</p>\n</td>\n<td>\n<p dir=\"ltr\">Effect</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">10</p>\n</td>\n<td>\n<p dir=\"ltr\">You found a distant relation willing to offer the equivalent of a closet to collapse in, giving you free—if poor—lodging.</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">15</p>\n</td>\n<td>\n<p dir=\"ltr\">You find the local branch of your family. You can get poor lodging for free or average lodging at half cost. Any random chance of combat or misfortune in the community is halved.</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">25</p>\n</td>\n<td>\n<p dir=\"ltr\">You find a friend from long ago, or perhaps a friend of a friend. They can put you and your friends up with average lodging for free as well as halving the random chance of combat or misfortune in the community.</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">35</p>\n</td>\n<td>\n<p dir=\"ltr\">You managed to find a sibling, uncle, aunt, or other direct relation. They’re willing to go out of their way for your comfort, providing lodging and food for your party for free while quartering the chance of combat or misfortune in the community.</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p> </p>"
+    },
+    "rules": [],
+    "slug": "established-brand",
+    "_migration": {
+      "version": 0.891,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.845,
+        "foundry": "11.315",
+        "system": "5.9.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "ponykind"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Ponyfinder: Tribes of Everglow",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "onlyLevel1": true,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "ownership": {
+    "default": 2,
+    "VYzg4GwxmU2rDObG": 3,
+    "v2A9rY4J6fmNczlM": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.2.1",
+    "coreVersion": "13.344",
+    "createdTime": 1688400859096,
+    "modifiedTime": 1723252156797,
+    "lastModifiedBy": "RYp8kuVcyZE42EyG",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "dAUsxjEk1V8GAjKl",
+  "sort": 112500
+}

@@ -1,0 +1,77 @@
+{
+  "name": "Severing the Worldly Ties",
+  "type": "feat",
+  "img": "icons/skills/melee/strike-blade-scimitar-green-purple.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p dir=\"ltr\"><strong>Prerequisites</strong> ghost pony</p>\n<p dir=\"ltr\">You attempt to disrupt the connection of a summoned creature with the minion trait. It must make a Will save against your class DC and is affected depending on the result.</p>\n<p dir=\"ltr\"><strong>Critical Success </strong>The creature is unaffected.</p>\n<p dir=\"ltr\"><strong>Success </strong>The connection is weakened, causing it to become slowed 1 for a round.</p>\n<p dir=\"ltr\"><strong>Failure </strong>The connection is nearly severed, causing it to become stunned 3. If the creature is already stunned before this, it vanishes back to whence it came.</p>\n<p dir=\"ltr\"><strong>Critical Failure</strong> The creature immediately vanishes back to whence it came.</p>"
+    },
+    "rules": [],
+    "slug": "severing-the-worldly-ties",
+    "_migration": {
+      "version": 0.891,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.845,
+        "foundry": "11.315",
+        "system": "5.9.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "ponykind"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Ponyfinder: Tribes of Everglow",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "effects": [],
+  "folder": "lpZ2hrS9UhTB7fKa",
+  "ownership": {
+    "default": 3,
+    "VYzg4GwxmU2rDObG": 3,
+    "6eYXjOVP8C9nkMdx": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ea4bbfa04f46c3a52e446131fd75bae64c39365c"
+    },
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "6.2.1",
+    "coreVersion": "13.344",
+    "createdTime": 1663012085470,
+    "modifiedTime": 1723253514021,
+    "lastModifiedBy": "fk9YvBqsldfUKGpW",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "3WjCPOlnBaFlBvvV",
+  "sort": 0
+}

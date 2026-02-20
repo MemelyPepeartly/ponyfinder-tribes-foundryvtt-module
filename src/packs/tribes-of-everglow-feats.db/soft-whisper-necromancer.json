@@ -1,0 +1,83 @@
+{
+  "name": "Soft Whisper Necromancer",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Access </strong>Worship Soft Whisper</p><p>You may choose to pay twice the material cost when animating or creating undead but there is a 50% chance of failure. This chance can be reduced to 25% if you are pursuing a goal immediately desirable to the deceased. <span style=\"font-family:var(--sans-serif)\">On failure, that spirit does not wish to return and half the components are refunded. Any spell you cast to create, control, or otherwise interact with undeath is not considered inherently evil, allowing even a good cleric to use them.</span></p><p>If you can communicate with the dead beforehand (via a spell or other means), you may ask them without spending components. You may not try the same corpse again after it has refused to return for at least a year and a day, but if they agree, there is no failure chance to the subsequent spell. Such undead have the alignment they had in life as <span style=\"font-family:var(--sans-serif)\">well as their mental attributes (if you’re uncertain, roll 3d6 for each missing statistic) and the free will to do as they please, though they begin as Helpful towards their creator. Though they are not under your direct control, the undead still counts as such until they are destroyed. Releasing an undead causes it to immediately return to death.</span></p><p>Undead who normally are mindless are not so when created by you. Undead created by you may also decide when they tire of undeath and destroy themselves at their own behest. For random souls, assume the undead will be willing for 1d4 weeks. After serving you the undead cannot be disturbed for a year and a day. An undead who had class levels or abilities in life may be restored with them, possibly influencing the level of the undead you create.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "expert in Religion"
+        }
+      ]
+    },
+    "location": null
+  },
+  "_id": "JNl5Au6v11WjK6pD",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "YL4wUN6pAn6mjGZZ",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "vLFDiDRjrgOmIGlA": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "dac985c07aa6c07fe3ba93e656d421ce7c653dbe"
+    },
+    "LocknKey": {
+      "IDKeysFlag": "",
+      "RemoveKeyonUseFlag": false,
+      "LPFormulaFlag": "",
+      "LPFormulaOverrideFlag": false,
+      "LBFormulaFlag": "",
+      "LBFormulaOverrideFlag": false,
+      "ReplacementItemFlag": ""
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.344",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1726704293622,
+    "modifiedTime": 1726704447332,
+    "lastModifiedBy": "vLFDiDRjrgOmIGlA",
+    "exportSource": null
+  }
+}
