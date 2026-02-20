@@ -1,49 +1,54 @@
 name: Release
 
 on:
-    push:
-        branches:
-            - master
+  push:
+    branches:
+      - main
 
 permissions:
-    contents: write
-    pull-requests: write
+  contents: write
 
 jobs:
-    build:
-        runs-on: ubuntu-latest
-        steps:
-            - uses: actions/checkout@v3
-              with:
-                  ref: ${{ github.head_ref }}
-            - uses: actions/setup-node@v3
-              with:
-                  node-version: 18
-            - run: npm ci
-            - run: npm run build
-            - run: npm run format
-            # - uses: stefanzweifel/git-auto-commit-action@v4
-            #   with:
-            #       commit_message: "chore: format code"
-            #       branch: ${{ github.head_ref }}
-            - id: version
-              uses: notiz-dev/github-action-json-property@release
-              with:
-                  path: dist/module.json
-                  prop_path: "version"
-            - uses: "marvinpinto/action-automatic-releases@v1.2.1"
-              with:
-                  repo_token: ${{ secrets.GITHUB_TOKEN }}
-                  automatic_release_tag: latest
-                  prerelease: false
-                  files: |
-                      dist/module.json
-                      dist/ponyfinder-tribes-foundryvtt-module.zip
-            - uses: "marvinpinto/action-automatic-releases@v1.2.1"
-              with:
-                  repo_token: ${{ secrets.GITHUB_TOKEN }}
-                  automatic_release_tag: v${{ steps.version.outputs.prop }}
-                  prerelease: false
-                  files: |
-                      dist/module.json
-                      dist/ponyfinder-tribes-foundryvtt-module.zip
+  build-and-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build project
+        run: npm run build
+
+      - name: Get version from built manifest
+        id: get_version
+        run: echo "version=$(node -p \"require('./dist/module.json').version\")" >> $GITHUB_OUTPUT
+
+      - name: Update latest release
+        uses: ncipollo/release-action@v1
+        with:
+          allowUpdates: true
+          name: Latest
+          draft: false
+          prerelease: false
+          token: ${{ secrets.GITHUB_TOKEN }}
+          artifacts: "./dist/module.json,./dist/module.zip"
+          tag: latest
+
+      - name: Create/update version release
+        uses: ncipollo/release-action@v1
+        with:
+          allowUpdates: true
+          name: Release ${{ steps.get_version.outputs.version }}
+          draft: false
+          prerelease: false
+          token: ${{ secrets.GITHUB_TOKEN }}
+          artifacts: "./dist/module.json,./dist/module.zip"
+          tag: ${{ steps.get_version.outputs.version }}
