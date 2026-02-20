@@ -99,6 +99,7 @@ export default class CompendiumPack {
         for (const docSource of this.data) {
             // Populate CompendiumPack.namesToIds for later conversion of compendium links
             packMap.set(docSource.name, docSource._id);
+            packMap.set(docSource._id, docSource._id);
 
             // Check img paths
             if ("img" in docSource && typeof docSource.img === "string") {
@@ -162,7 +163,11 @@ export default class CompendiumPack {
                     }
 
                     const filenameForm = sluggify(documentName).concat(".json");
-                    if (basename(filePath) !== filenameForm) {
+                    const baseName = basename(filePath);
+                    const isCollisionFilename =
+                        baseName.startsWith(`${sluggify(documentName)}-`) &&
+                        baseName.endsWith(".json");
+                    if (baseName !== filenameForm && !isCollisionFilename) {
                         throw PackError(
                             `Filename at ${filePath} does not reflect document name (should be ${filenameForm}).`
                         );
@@ -238,31 +243,38 @@ export default class CompendiumPack {
             );
 
         const toNameRef = (uuid) => {
-            const parts = uuid.split(".");
-            const [packId, docId] = parts.slice(2, 4);
+            const match =
+                /^Compendium\.([^.]*)\.([^.]+)\.(?:(Item|Actor|JournalEntry|Macro)\.)?(.+)$/.exec(
+                    uuid
+                );
+            if (!match) return uuid;
+
+            const [, moduleId, packId, docType, docId] = match;
             const docName = map.get(packId)?.get(docId);
-            if (docName) {
-                return parts.slice(0, 3).concat(docName).join(".");
-            } else {
+            if (!docName) {
                 throw PackError(
                     `Unable to find document name corresponding with ${uuid}`
                 );
             }
+
+            const typeSegment = docType ? `${docType}.` : "";
+            return `Compendium.${moduleId}.${packId}.${typeSegment}${docName}`;
         };
 
         const toIDRef = (uuid) => {
             const match =
-                /(?<=^Compendium\.ponyfinder-tribes-foundryvtt-module\.)([^.]+)\.(.+)$/.exec(
-                    uuid
-                );
+                /^Compendium\.(ponyfinder-tribes-of-everglow|ponyfinder-tribes-foundryvtt-module)\.([^.]+)\.(?:(Item|Actor|JournalEntry|Macro)\.)?(.+)$/.exec(
+                uuid
+            );
             if (!match) {
                 return uuid;
             }
 
-            const [, packId, docName] = match ?? [null, null, null];
+            const [, moduleId, packId, docType, docName] = match ?? [null, null, null, null, null];
             const docId = map.get(packId ?? "")?.get(docName ?? "");
             if (docName && docId) {
-                return uuid.replace(docName, docId);
+                const typeSegment = docType ? `${docType}.` : "";
+                return `Compendium.${moduleId}.${packId}.${typeSegment}${docId}`;
             } else {
                 throw PackError(
                     `Unable to resolve UUID in ${source.name}: ${uuid}`

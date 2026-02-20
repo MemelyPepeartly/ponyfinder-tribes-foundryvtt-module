@@ -17,6 +17,7 @@ const __dirname = dirname(__filename);
 const packageJson = JSON.parse(
     readFileSync(new URL("./package.json", import.meta.url), "utf8")
 );
+const MODULE_ID = "ponyfinder-tribes-of-everglow";
 
 /** @type {import('webpack').Configuration} */
 const config = {
@@ -76,7 +77,7 @@ const config = {
             filter: (file) =>
                 file.name.endsWith(".js") || file.name.endsWith(".json"),
             generate: (_, files, __) => ({
-                id: packageJson.name,
+                id: MODULE_ID,
                 title: packageJson.title,
                 description: packageJson.description,
                 version: packageJson.version,
@@ -87,6 +88,13 @@ const config = {
                     maximum: "13",
                 },
                 relationships: {
+                    requires: [
+                        {
+                            id: "ponyfinder-foundryvtt-module",
+                            type: "module",
+                            compatibility: {},
+                        },
+                    ],
                     systems: [
                         {
                             id: "pf2e",
@@ -130,95 +138,56 @@ const config = {
                     })),
                 packs: [
                     {
-                        name: "ponyfinder-tribes-actions",
-                        label: "Ponyfinder Actions",
-                        path: "packs/ponyfinder-actions.db",
+                        name: "tribes-of-everglow-heritages",
+                        label: "Tribes of Everglow Heritages",
+                        path: "packs/tribes-of-everglow-heritages.db",
                         type: "Item",
                         system: "pf2e",
                     },
                     {
-                        name: "ponyfinder-tribes-ancestries",
-                        label: "Ponyfinder Ancestries",
-                        path: "packs/ponyfinder-ancestries.db",
+                        name: "tribes-of-everglow-feats",
+                        label: "Tribes of Everglow Feats",
+                        path: "packs/tribes-of-everglow-feats.db",
                         type: "Item",
                         system: "pf2e",
                     },
                     {
-                        name: "ponyfinder-tribes-archetypes",
-                        label: "Ponyfinder Archetypes",
-                        path: "packs/ponyfinder-archetypes.db",
-                        type: "JournalEntry",
-                        system: "pf2e",
-                    },
-                    {
-                        name: "ponyfinder-tribes-deities",
-                        label: "Ponyfinder Deities",
-                        path: "packs/ponyfinder-deities.db",
+                        name: "tribes-of-everglow-spells",
+                        label: "Tribes of Everglow Spells",
+                        path: "packs/tribes-of-everglow-spells.db",
                         type: "Item",
                         system: "pf2e",
                     },
                     {
-                        name: "ponyfinder-tribes-effects",
-                        label: "Ponyfinder Effects",
-                        path: "packs/ponyfinder-effects.db",
+                        name: "tribes-of-everglow-items",
+                        label: "Tribes of Everglow Items",
+                        path: "packs/tribes-of-everglow-items.db",
                         type: "Item",
-                        system: "pf2e",
-                    },
-                    {
-                        name: "ponyfinder-tribes-feats",
-                        label: "Ponyfinder Feats",
-                        path: "packs/ponyfinder-feats.db",
-                        type: "Item",
-                        system: "pf2e",
-                    },
-                    {
-                        name: "ponyfinder-tribes-heritages",
-                        label: "Ponyfinder Heritages",
-                        path: "packs/ponyfinder-heritages.db",
-                        type: "Item",
-                        system: "pf2e",
-                    },
-                    {
-                        name: "ponyfinder-tribes-items",
-                        label: "Ponyfinder Items",
-                        path: "packs/ponyfinder-items.db",
-                        type: "Item",
-                        system: "pf2e",
-                    },
-                    {
-                        name: "ponyfinder-tribes-spells",
-                        label: "Ponyfinder Spells",
-                        path: "packs/ponyfinder-spells.db",
-                        type: "Item",
-                        system: "pf2e",
-                    },
-                    {
-                        name: "ponyfinder-tribes-npc-actions",
-                        label: "Ponyfinder NPC Actions",
-                        path: "packs/ponyfinder-npc-actions.db",
-                        type: "Item",
-                        system: "pf2e",
-                    },
-                    {
-                        name: "ponyfinder-tribes-npc-gallery",
-                        label: "Ponyfinder NPC Gallery",
-                        path: "packs/ponyfinder-npc-gallery.db",
-                        type: "Actor",
                         system: "pf2e",
                     },
                 ],
-                flags: {
-                    "ponyfinder-tribes-foundryvtt-module": {
-                        "pf2e-homebrew": {
-                            creatureTraits: {
-                                testCreatureTrait: "Test Creature Trait",
+                packFolders: [
+                    {
+                        name: "Ponyfinder",
+                        sorting: "m",
+                        folders: [
+                            {
+                                name: "Tribes of Everglow",
+                                sorting: "m",
+                                packs: [
+                                    "tribes-of-everglow-heritages",
+                                    "tribes-of-everglow-feats",
+                                    "tribes-of-everglow-spells",
+                                    "tribes-of-everglow-items",
+                                ],
+                                folders: [],
+                                color: null,
                             },
-                            featTraits: {
-                                testFeatTrait: "Test Feat Trait",
-                            },
-                        },
+                        ],
+                        packs: [],
+                        color: null,
                     },
-                },
+                ],
             }),
         }),
         {
