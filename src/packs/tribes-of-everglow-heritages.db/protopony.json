@@ -30,6 +30,29 @@
       "value": [],
       "rarity": "common"
     },
+    "boosts": {
+      "0": {
+        "value": [
+          "str",
+          "dex",
+          "con",
+          "int",
+          "wis",
+          "cha"
+        ]
+      },
+      "1": {
+        "value": [
+          "str",
+          "dex",
+          "con",
+          "int",
+          "wis",
+          "cha"
+        ]
+      }
+    },
+    "flaws": {},
     "publication": {
       "title": "",
       "authors": "",
