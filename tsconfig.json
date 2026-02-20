@@ -1,11 +1,13 @@
 {
-    "extends": "@tsconfig/node16-strictest-esm",
-    "compilerOptions": {
-        "module": "ESNext",
-        "noEmit": true,
-        "noImplicitAny": false,
-        "resolveJsonModule": true,
-        "sourceMap": true,
-        "types": ["@league-of-foundry-developers/foundry-vtt-types"]
-    }
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "noImplicitAny": false,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "types": ["@league-of-foundry-developers/foundry-vtt-types", "node"],
+    "skipLibCheck": true
+  }
 }

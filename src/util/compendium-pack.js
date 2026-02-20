@@ -24,8 +24,8 @@ function isObject(value) {
 
 function isActorSource(docSource) {
     return (
-        "data" in docSource &&
-        isObject(docSource.data) &&
+        "system" in docSource &&
+        isObject(docSource.system) &&
         "items" in docSource &&
         Array.isArray(docSource.items)
     );
@@ -33,8 +33,8 @@ function isActorSource(docSource) {
 
 function isItemSource(docSource) {
     return (
-        "data" in docSource &&
-        isObject(docSource.data) &&
+        "system" in docSource &&
+        isObject(docSource.system) &&
         !isActorSource(docSource)
     );
 }
@@ -188,11 +188,11 @@ export default class CompendiumPack {
         docSource.flags.core = { sourceId: this.sourceIdOf(docSource._id) };
 
         if (isItemSource(docSource)) {
-            docSource.data.slug = sluggify(docSource.name);
-            docSource.data.schema = { version: 0.75, lastMigration: null };
+            docSource.system.slug ??= sluggify(docSource.name);
+            docSource.system._migration ??= { version: null, previous: null };
 
             // if (isPhysicalData(docSource)) {
-            //     docSource.data.equipped = { carryType: "worn" };
+            //     docSource.system.equipped = { carryType: "worn" };
             // }
 
             // Convert uuids with names in GrantItem REs to well-formedness
@@ -271,7 +271,8 @@ export default class CompendiumPack {
         };
 
         const convert = to === "ids" ? toIDRef : toNameRef;
-        for (const rule of source.data.rules) {
+        const rules = Array.isArray(source.system?.rules) ? source.system.rules : [];
+        for (const rule of rules) {
             if (
                 rule.key === "GrantItem" &&
                 typeof rule.uuid === "string" &&
@@ -288,12 +289,12 @@ export default class CompendiumPack {
             }
         }
 
-        if (source.data.ancestry) {
+        if (source.system?.ancestry) {
             if (
-                typeof source.data.ancestry.uuid === "string" &&
-                !source.data.ancestry.uuid.startsWith("{")
+                typeof source.system.ancestry.uuid === "string" &&
+                !source.system.ancestry.uuid.startsWith("{")
             ) {
-                source.data.ancestry.uuid = convert(source.data.ancestry.uuid);
+                source.system.ancestry.uuid = convert(source.system.ancestry.uuid);
             }
         }
     }

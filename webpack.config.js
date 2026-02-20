@@ -5,16 +5,18 @@ import imageminPngquant from "imagemin-pngquant";
 import imageminSvgo from "imagemin-svgo";
 import imageminWebp from "imagemin-webp";
 import JsonMinimizerPlugin from "json-minimizer-webpack-plugin";
-import { readdirSync } from "node:fs";
+import { existsSync, readFileSync, readdirSync } from "node:fs";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { WebpackManifestPlugin } from "webpack-manifest-plugin";
 
-import packageJson from "./package.json" assert { type: "json" };
 import CompendiumPack from "./src/util/compendium-pack.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
+const packageJson = JSON.parse(
+    readFileSync(new URL("./package.json", import.meta.url), "utf8")
+);
 
 /** @type {import('webpack').Configuration} */
 const config = {
@@ -55,13 +57,16 @@ const config = {
                     from: "assets/**/*.{png,svg,webp}",
                     to: resolve(__dirname, "dist"),
                     async transform(content) {
-                        return imagemin.buffer(content, {
+                        const optimized = await imagemin.buffer(content, {
                             plugins: [
                                 imageminPngquant(),
                                 imageminSvgo(),
                                 imageminWebp(),
                             ],
                         });
+                        return Buffer.isBuffer(optimized)
+                            ? optimized
+                            : Buffer.from(optimized);
                     },
                 },
             ],
@@ -72,17 +77,30 @@ const config = {
                 file.name.endsWith(".js") || file.name.endsWith(".json"),
             generate: (_, files, __) => ({
                 id: packageJson.name,
-                name: packageJson.name,
                 title: packageJson.title,
                 description: packageJson.description,
                 version: packageJson.version,
-                author: packageJson.author.name,
-                system: ["pf2e"],
-                minimumCoreVersion: "10",
-                compatibleCoreVersion: "10",
+                authors: packageJson.authors,
+                compatibility: {
+                    minimum: "13",
+                    verified: "13.351",
+                    maximum: "13",
+                },
+                relationships: {
+                    systems: [
+                        {
+                            id: "pf2e",
+                            type: "system",
+                            compatibility: {
+                                minimum: "7.0.0",
+                                verified: "7.10.1",
+                            },
+                        },
+                    ],
+                },
                 url: packageJson.homepage,
                 protected: true,
-                download: `${packageJson.homepage}/releases/download/latest/ponyfinder-tribes-foundryvtt-module.zip`,
+                download: `${packageJson.homepage}/releases/download/latest/module.zip`,
                 manifest: `${packageJson.homepage}/releases/download/latest/module.json`,
                 esmodules: files
                     .filter(
@@ -207,10 +225,9 @@ const config = {
             apply: (compiler) => {
                 compiler.hooks.afterEmit.tap("CreateFoundryPacksPlugin", () => {
                     const packsDataPath = resolve(__dirname, "src", "packs");
+                    if (!existsSync(packsDataPath)) return;
                     readdirSync(packsDataPath)
-                        .map((dirName) =>
-                            resolve(__dirname, packsDataPath, dirName)
-                        )
+                        .map((dirName) => resolve(packsDataPath, dirName))
                         .map((dirPath) => CompendiumPack.loadJSON(dirPath))
                         .forEach((pack) => pack.save());
                 });
@@ -225,7 +242,7 @@ const config = {
                             destination: resolve(
                                 __dirname,
                                 "dist",
-                                "ponyfinder-tribes-foundryvtt-module.zip"
+                                "module.zip"
                             ),
                         },
                     ],
