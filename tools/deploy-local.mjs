@@ -1,4 +1,11 @@
-import { cpSync, existsSync, mkdirSync, readFileSync, rmSync } from "node:fs";
+import {
+    cpSync,
+    existsSync,
+    mkdirSync,
+    readFileSync,
+    rmSync,
+    writeFileSync,
+} from "node:fs";
 import path from "node:path";
 
 function resolveModulesDir() {
@@ -56,8 +63,33 @@ const modulesDir = resolveModulesDir();
 const destination = path.join(modulesDir, moduleJson.id);
 
 mkdirSync(modulesDir, { recursive: true });
-rmSync(destination, { recursive: true, force: true });
+try {
+    rmSync(destination, { recursive: true, force: true });
+} catch (error) {
+    if (error && (error.code === "EBUSY" || error.code === "EPERM")) {
+        throw new Error(
+            `Cannot replace ${destination} because files are locked. Close Foundry VTT and rerun deploy.`
+        );
+    }
+    throw error;
+}
 cpSync(buildDir, destination, { recursive: true });
+
+const deployedModuleJsonPath = path.join(destination, "module.json");
+if (existsSync(deployedModuleJsonPath)) {
+    const deployed = JSON.parse(readFileSync(deployedModuleJsonPath, "utf8"));
+    if (deployed.protected) {
+        delete deployed.protected;
+        writeFileSync(
+            deployedModuleJsonPath,
+            `${JSON.stringify(deployed, null, 2)}\n`,
+            "utf8"
+        );
+    }
+}
+
+const signaturePath = path.join(destination, "signature.json");
+rmSync(signaturePath, { force: true });
 
 console.log(`Deployed ${moduleJson.id}`);
 console.log(`Source: ${buildDir}`);
