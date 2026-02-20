@@ -108,7 +108,7 @@ const config = {
                 },
                 url: packageJson.homepage,
                 protected: true,
-                manifest: `${packageJson.homepage}/releases/download/latest/module.json`,
+                manifest: `https://r2.foundryvtt.com/packages-public/${MODULE_ID}/module.json`,
                 esmodules: files
                     .filter(
                         (file) =>
