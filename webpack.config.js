@@ -108,7 +108,6 @@ const config = {
                 },
                 url: packageJson.homepage,
                 protected: true,
-                download: `${packageJson.homepage}/releases/download/latest/module.zip`,
                 manifest: `${packageJson.homepage}/releases/download/latest/module.json`,
                 esmodules: files
                     .filter(

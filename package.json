@@ -2,7 +2,7 @@
   "name": "ponyfinder-tribes-foundryvtt-module",
   "title": "Ponyfinder - Tribes of Everglow",
   "description": "A collection of Ponyfinder: Tribes of Everglow content for Pathfinder 2e",
-  "version": "0.10.1",
+  "version": "0.10.2",
   "private": true,
   "type": "module",
   "authors": [
